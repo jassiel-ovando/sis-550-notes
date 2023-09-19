@@ -1,18 +1,7 @@
-# Database
+# Systems Engineering
 
-- **Group**: A
-- **Subject Code**: SI-314
-- **Professor**: Egüez Terrazas, Carlos Wilfredo
+== Lecture
 
-## Lectures
+== Projects
 
-## Assignments
-
-### ER Assistant
-
-### SQL Scripts
-
-pieowiefjwoeifjweoifjeoij
-
-<iframe src="file:///C:/Users/jassi/OneDrive%20-%20Fundaci%C3%B3n%20Estudiantes%20UPSA/SIS-550/notes/2023-2/SI-320/text.txt" width="100%" height="400">
-</iframe>
+=== xref:projects/project-1.adoc[Project 1: Requirements Definition]

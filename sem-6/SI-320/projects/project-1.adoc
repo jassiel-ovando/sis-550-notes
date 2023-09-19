@@ -1,0 +1,92 @@
+= Requirements Definition
+
+_Make a presentation..._
+
+== Structure
+
+. Background
+. Problem Description
+. Objectives
+.. General Objectives
+.. Specific Objectives
+. Requirements
+.. Functional Requirements
+.. Non-Functional Requirements
+.. Constraints
+
+== Considerations
+
+=== Background
+
+* Get more information about the problem domain
+* Get more information about the what can the problem be
+* back it up with references, surveys, etc.
+* Use the information to define the problem
+
+=== Problem Description
+
+.Have a synthesis of the problem
+
+* What is the problem
+* What is the problem about
+* What is the problem domain
+* What is the problem scope
+* What is the problem context
+* What is the problem environment
+* What is the problem history
+* What is the problem importance
+* What is the problem impact
+* What is the problem urgency
+* What is the problem frequency
+* What is the problem cost
+* What is the problem risk
+* What is the problem complexity
+* What is the problem difficulty
+* What is the problem size
+* What is the problem volume
+* What is the problem duration
+
+=== Objectives
+
+=== 
+
+=== Functional Requirements
+
+_Funcional requirements must be totally related to the problem description. Their need is vital._
+
+.Improvements to take in mind
+* Know the dependencies of the requirement
+** _Say for example_:
+*** For AI, and being able to learn, depends on the AI algorithm.
+* Requirement identifier
+* Requirement description
+* Requirement priority
+* Requirement type
+* Requirement name
+* Input/Output for requirements
+* _Why_ is the requirement needed?
+
+
+=== Non-Functional Requirements
+
+_Non-functional requirements aren't much related to the problem description or solution. They are more related to the system ease of use, portability, security, etc. Their reason or purpose is not fundamental._
+
+.Improvements to take in mind
+* Security
+* Portability
+* Ease of use
+
+
+=== Constraints
+
+_Constraints are the limitations of the project. They are the things that can't be done, or can't be done in a certain way. They are the things that can't be changed or make the solution of the problem harder to do._
+
+.Improvements to take in mind
+* Time
+* Money
+* Resources
+* Technology
+* Knowledge
+* Skills
+* Tools
+* Hardware

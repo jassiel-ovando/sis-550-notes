@@ -1,0 +1,15 @@
+# Database
+
+- **Group**: A
+- **Subject Code**: SI-314
+- **Professor**: Egüez Terrazas, Carlos Wilfredo
+
+## Lectures
+
+## Assignments
+
+### ER Assistant
+
+### SQL Scripts
+
+

@@ -1,0 +1,6 @@
+= Ethics & Values
+
+== Lectures
+
+=== xref:lectures/real-solutions.adoc[Real Solutions]
+

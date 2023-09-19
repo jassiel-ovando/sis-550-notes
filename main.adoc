@@ -1,19 +1,59 @@
 = Systems Engineering
-Jassiel Ovando <mail@wexample.com>
-v1.0, 2023-01-01
-:toc: 
-:homepage: https://wexample.com
+Jassiel O. F.  <a2021117600@estudiantes.upsa.edu.bo>
+v2021.02
+:description: any description
+:source-highlighter: highlight.js
+:icons: font
+:doctype: book
+:toc: auto
+// :sectnums: |,all|
 
-This documentation is a work in progress.
+Universidad Privada de Santa Cruz de la Sierra -- UPSA
 
-== Level 1 Section Title
+== Student Service
+Departamento de Asesoría y Bienestar Estudiantil -- DABE
 
-=== Level 2 Section Title
+== Semester 1
 
-==== Level 3 Section Title
+Started on February 2021.
 
-===== Level 4 Section Title
+== Semester 2
 
-====== Level 5 Section Title
+Started on August 2021.
 
-== Another Level 1 Section Title
+== Semester 3
+Jassiel O. F. <jassiel@example.org>
+v2023.1
+
+// Started on February 2022.
+
+== Semester 4
+
+Started on August 2022.
+
+== Semester 5
+
+Started on February 2023.
+
+=== Operational Research I
+=== Applied Programming
+=== Analysis of Quality Control
+=== Laboratory of Operating Systems I
+=== Laboratory of Computer Networks I
+=== Mathematical Finance
+=== Ethic Hacker (*Extra*)
+
+== July-2023 Intensive Course
+=== Advanced Data Structures
+
+== Semester 6
+
+Started on August 2023
+
+=== xref:sem-6/IT-323/doc.adoc[Analysis for Decision-Making]
+=== xref:sem-6/MI-325/doc.adoc[Operational Research II]
+=== xref:sem-6/SI-120/doc.adoc[Fundamentals of Programming (*Auxiliary*)]
+=== xref:sem-6/SI-314/doc.adoc[Database]
+=== xref:sem-6/SI-319/doc.adoc[Ethics & Values]
+=== xref:sem-6/SI-320/doc.adoc[Software Engineering]
+=== xref:sem-6/SI-322/doc.adoc[Laboratory of Operating Systems II]
