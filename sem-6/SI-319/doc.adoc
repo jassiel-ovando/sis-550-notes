@@ -2,5 +2,30 @@
 
 == Lectures
 
+=== xref:lectures/1-ethic-type.adoc[Types of Ethics]
+
+=== xref:lectures/2-ethical-dilemma.adoc[Dilemma of Ethics]
+
+=== xref:lectures/3-deontology.adoc[Deontology]
+
+=== Introduction
+
+==== The Engineering of Ethics
+
+==== Technology and Poverty
+
+==== Estrategías Empresariales
+
+=== El Destino del Piraí
+
+=== Reponsabilidad
+
+==== Salud, Dinero y Amor
+
+==== La tecnología en tiempos de cólera
+
+==== un multiverso de soluciones
+
 === xref:lectures/real-solutions.adoc[Real Solutions]
 
+=== Información para Alumnos

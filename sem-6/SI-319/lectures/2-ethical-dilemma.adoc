@@ -1,0 +1,187 @@
+= The Ethical Dilemma
+
+== What is a Dilemma
+
+Dilemma is a situation that forces you to choose between two options, both of which are equally bad or good.
+
+It can also be an argument formed by two contrary propositions disjunctively, in such a way that, denied or granted either of the two, a certain conclusion.
+
+=== What is an Ethical Dilemma
+
+* It's a difficult situation where it is not clear or simple to discern what is the best decision, since the person can choose, at least, between two courses of action, each of which seems to be well justified by some standard of behavior that is correct for that person.
+* In most dilemmas, any path or option that is taken involves a loss.
+* The key is to decide based on values and principles that privilege not only the individual but the common good.
+* The first step is to know the meaning of the term ethical dilemma is to discover the etymological origin of the two words that give it shape:
+** Dilemma comes from the Greek "dilemma", which is formed from the sum of two differentiated parts: the prefix "dis-", which means "two", and the noun "lemma", which is synonymous with "themes".
+** Ethical also emanates from Greek. It is the result of the union of "ethos", which means "custom", and the suffix "-ikos", which can be translated as "relative to".
+* Dilemma is denominated to the situation that forces to choose between two alternatives.
+* The ethical, on the other hand, is what conforms to moral norms. That is, that adapts to what is considered good, positive or acceptable.
+* An ethical dilemma, therefore, occurs when a person is forced to choose between alternatives that, in some way, can cause a moral fault.
+* This type of dilemma is linked to the acceptance, or not, of a questionable means from the ethical point of view with an altruistic or benevolent end.
+
+== Definition
+
+* The ethical dilemma can be defined as a situation in which an apparent conflict between two ethical imperatives is present and where choosing one of them may imply that the other is transgressed.
+* It is a situation where the individual has a series of reasons why two different actions can be carried out, each of them with a specific favoring to a different principle.
+
+== Characteristics
+
+* Ethical dilemmas are usually generated from a specific fact in which a situation that can be hypothetical is subscribed.
+* It produces a series of conflicts in the moral sphere.
+* It is closely linked to ethical problems which can cause damage to individuals.
+* The decisions made in an ethical dilemma can lead to losses.
+* To solve, decisions must be made based on values and principles that help to obtain a common good and not just an individual good.
+* They usually do not present solutions that turn out to be pleasant for all the people involved or participants.
+* They are generally raised as a type of educational mechanism
+
+== Types
+
+* The concept of ethical dilemma may seem clear, but there is not a single type.
+* Depending on various criteria we can find different types of dilemmas, which can vary in their level of concreteness, in the role of the subject to whom it is presented or in its verisimilitude.
+
+.In this sense, some of the main types are the following:
+* Hypothetical dilemma
+* Closed dilemma
+* Real dilemma
+* Complete dilemma
+* Incomplete dilemma
+* Open dilemma
+
+=== Hypothetical Dilemma
+
+* It is a dilemma that places the person to whom it is asked in a position in which he is confronted with a situation that is very unlikely to happen in real life.
+* It is not necessary for the person to whom the dilemma is asked to be the protagonist of it, being able to be asked what the character should do.
+* The topics that are dealt with in this type of dilemma do not have to be impossible, but they must be unusual in everyday life.
+
+==== Example of Hypothetical Dilemma
+
+===== Example 1
+
+* It is a member of the UN Security Council who has to vote on a matter of systematic violation of Human Rights by a State.
+* To the front of this it is found a dictator that doesn't let any kind of democratic advance in their country, and who also militarily persecutes certain ethnic minorities, against whom he is carrying out systematic actions of genocide.
+* In the Security Council he must give his vote to one of the following options:
+** Do not intervene, since the matter can be considered internal to that State, and any intervention by the UN could be interpreted as interference in internal affairs.
+** Approve an economic embargo, guaranteed by military surveillance of its borders, although the effects of said embargo fall mainly on the civilian population of that State, a large part of which does not support the dictator.
+** Approve a military intervention in defense of the attacked ethnic minorities, even if that decision implies starting a war where thousands of people will die.
+===== Example 2
+
+Would you support an armed intervention in Venezuela? Why or why not?
+
+=== Closed Dilemma
+
+* Includes decisions that have already been made previously on a specific problem or event.
+* At the time of presenting the dilemma, it is sought to find different types of opinions so that the performance of the person who had to take a certain position before the situation can be evaluated later.
+* The person to whom the dilemma is presented should not decide what to do, but rather assess the performance of the protagonist.
+
+==== Example of Closed Dilemma
+
+===== Example 1
+
+* Text by Paulo Coelho: Some time ago, my wife helped a Swiss tourist in the Ipanema area, who claimed to have been the victim of thieves.
+* Speaking very bad Portuguese with a foreign accent, he claimed to be without a passport, money or a place to sleep.
+* My wife paid him a lunch and gave him the money he needed to spend the night in a hotel until he contacted his embassy, and left.
+* Days later, a newspaper in the city reported that the "Swiss tourist" was actually a very creative scoundrel, who pretended to have a foreign accent and abused the good faith of people.
+* When reading the news, my wife limited herself to commenting: "That will not prevent me from continuing to help whoever I can." What value judgments could be issued?
+
+=== Real dilemma
+
+* This dilemma deals with a topic or situation that is close to the people to whom it is presented, either because it refers to an event that has lived or to something that can happen relatively easily in their day to day.
+* Real dilemmas raise situations that are less dramatic, however, having the possibility of being more related to daily life, they can awaken stronger emotions and alterations.
+* It is not necessary for the person to whom the dilemma is presented to be the protagonist of it, being able to be asked what the character should do.
+
+==== Real Dilemma Example
+
+===== Example 1
+
+* Would you give alms to an alcoholic beggar, even if you knew that he would probably spend the money on wine?
+* Would you argue that the purpose for which he asks for money (getting drunk) is bad, and therefore would you abstain from giving it to him?
+* Would you think that he is a sick person who cannot avoid getting drunk, and that that act does not harm anyone except himself, and because of his incurable addiction, would you give him the alms he asks for?
+* Do you consider any of the previous two decisions immoral?
+* Why?
+
+===== Example 2
+
+* A child who attends a school has psychiatric problems and is a threat to the other students because he is extremely aggressive. However, the school cannot expel him because it would be denying education to a person who, although dangerous, is in his right to study.
+* Questions:
+** What is done in this case?
+** Is the rest of the students protected or is it a matter of caring for and supporting the child with problems?
+
+=== Complete dilemma
+
+* The complete dilemma is the type of dilemma that is raised when a person is given all the information that is necessary about a certain situation but, there is not a clear explanation of what is the best way to solve the story.
+* It is intended that the person to whom this dilemma is suggested choose how to proceed in that situation.
+
+==== Example of Complete Dilemma
+
+===== Example 1
+
+* A train is circulating on a track at full speed and out of control, just before the change of needles that would allow it to continue on another track. You realize that on the same train track there are 5 people working, who will die if the train reaches them.
+* Fortunately you are in front of the change of needles and you have the option of diverting the train through the other track. However, on this other track there is another person working, who will also die if the train is diverted.
+** In this ethical dilemma, it is in your hands to decide whether to divert the train leaving a person to die, or not to divert it and leave five people to die.
+** What would be your decision and why?
+
+=== Incomplete dilemma
+
+* The incomplete dilemma raises a situation in which not all the possible consequences that may come from a certain problem are known in full.
+* This causes, before making the choice, imagination and creativity to be used to be able to think about which options could happen depending on the options that are available.
+* In these dilemmas the consequences of the decisions made by the protagonist are not made explicit, depending to a large extent on the subject's ability to imagine advantages and disadvantages.
+
+==== Example of Incomplete Dilemma
+
+* Condemn an innocent person to save a town.
+* Are you in agreement with Robin Hood?: _steal from the rich to give it to the poor_.
+* Torture a person to get information that allows you to stop some criminals.
+* If by some chance of life, you would surprise two famous people in an intimate, affectionate and compromising attitude for their honor, and you would have a camera or video camera at hand, would you photograph them and try to sell those images to a magazine that would pay you a good pile of money for them, or on the contrary, would you respect their right to privacy?
+* Would you be willing to share part of what you have left over (part of your pay, give up buying expensive and expensive clothes, dedicate your free time to work for an NGO, etc.) to try to remedy the poverty existing in the world? Or do you perhaps think that with individual attitudes nothing is solved and that this task should be the exclusive mission of the State (citizens already pay taxes, a part of which is dedicated to helping the poor)?
+* Would you be able to lie about your professional qualification to get a job, even if with that lie you harm other candidates for the job? If you were in that situation: would you tell the truth or would you try to get that job at all costs? In the latter case, how would you morally justify your conduct?
+
+=== Open dilemma
+
+* The open dilemma focuses on receiving all the information that is necessary about a certain situation but, there is no clear explanation of what is the best way to solve the story.
+* It is intended that the person to whom this dilemma is suggested choose how to proceed in that situation.
+* The main objective of this type of dilemma is; to be able to create a field of debate to make complicated decisions always taking into account the values.
+
+==== Example of Open Dilemma
+
+===== Example 1
+
+* Some years ago, the international press denounced that large multinational companies (some of the big brands of clothing and sports shoes) used children in their factories installed in Third World countries.
+* According to the published reports, the working conditions that occurred in those factories were scandalous.
+* In this way, companies managed to manufacture the product at a much lower price than they would have to pay if those garments had been manufactured in countries with legislation that respects Human Rights and protects the labor and union rights of workers.
+** If you had evidence that a multinational clothing company uses these practices, would you buy clothes from that brand, even if it was cheaper and you especially liked the garments it manufactures? Why or why not?
+** The implication of the participant in the dilemma is made by asking the question: "What would you have done in that situation?"
+
+== How to Face an Ethical Dilemma
+
+* Ethical dilemmas, also known as moral dilemmas, cannot be faced and resolved in a positive way if the person who is involved in them is governed by a traditionalist moral code.
+* Society or personal values do not have the ability to generate a response that is considered acceptable in this type of dilemma.
+* The ethical dilemma is mainly a hypothetical situation to be able to raise a reflection on ethics, values and moral code.
+
+.Some important steps to solve ethical problems are:
+* Determine if the situation in which you are needs to include decision making away from your own values.
+* Think and reflect on all the values that may be involved within the dilemma.
+* Create an action plan and also think about the possible results.
+
+== Difference of an Ethical Dilemma of a Moral Dilemma
+
+* The ethical dilemma occurs when an individual is forced to choose between two situations, a choice that will cause the transgression of the other.
+* The moral dilemma is a type of problem in which the decision to be made can be censored and criticized by other people.
+
+== What to take into Account with Ethical Dilemmas
+
+* *They are* present every time, no matter how imperceptible they are. From the behavior of known people, professional life, personal reactions in moments of adversity, to the classic love dilemmas.
+* *What they do* is to test convictions and beliefs, leading people to a paradoxical and often stressful state, in which the moral code is taken to the most crucial.
+* *They make you* reflect on the reasons for doing things and the way of seeing the world. Thus, they are not alien to people, but part of normal life.
+
+== Analysis Process of Ethical Dilemma
+
+One of the processes used in the analysis of an ethical dilemma and decision making is that of four steps proposed by Kallmany Grillo (1996). It is a process of critical reflection that helps to make an ethically defensible decision.
+
+.Analysis Process of Ethical Dilemma by Kallmany Grillo (1996)
+
+. *Understand the situation:* It is necessary to discover the implementation to the key people and the relevant facts involved in the ethical problem and its potential damage.
+. *Isolate the main ethical dilemma:* There must be a complete understanding of the ethical problem to reach a quality decision.
+. *Analyze ethically the alternatives:* Ethical analysis is done by answering a series of questions that have a sustained number of common ethical principles in their essence.
+. *Take a decision and plan the implementation to the key people:* The answers do not give the ethical solution, but they help to understand how specific principles apply to the situation. The purpose is to provide reasonable support for the decision that is made.
+
+This process suggests that before making a decision in the face of an ethical dilemma, a critical reflection should be made on who would benefit from this decision and who would be harmed, what rights could be protected and what duties could be neglected.

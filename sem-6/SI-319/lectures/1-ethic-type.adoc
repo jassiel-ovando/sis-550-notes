@@ -1,0 +1,431 @@
+= Types of Ethics
+
+* Ethic is a part of philosophy that focuses on moral reflection, and it's mainly divided into three branches:
+** Meta-ethics
+** Normative ethics
+** Applied ethics
+
+* Ethics are also classified according to philosophical schools.
+* The earlier branches are classified according to philosopher J. Fiesser.
+* Each of the branches responds to a different question, objectives and methodological approaches.
+
+== Type of Ethics according to its Branches
+
+* Meta-ethics
+** Metaphysic approaches
+** Psychological approaches
+* Normative ethics
+** Virtue theories
+** Duty theories
+** Consequential theories
+* Applied ethics
+** Professionalism
+** Organizational
+** Business
+** Environmental
+** Social
+** Athletic
+** Communication
+** Bioethics
+** Research
+
+== Meta-Ethics
+
+* Meta ethics is focused on the study of the moral concepts, origin and meaning.
+* Limits of study of this branch aren't very clear, it's area is very wide.
+* It has to main study fields:
+** Metaphysical approaches
+** Psychological approaches
+
+=== Metaphysical Approaches
+
+Analyzes if the notion of good is objective or subjective. Meaning that, if the good exists independently of the human being or if it's a human creation.
+
+=== Psychological Approaches
+
+Studies the psychological questions involved in ethics. For example, the desire for social approval, punishment fear, happiness reach, etc.
+
+== Normative Ethics
+
+* Normative ethics studies moral values in order to establish minimum standards of behavior that guide the human being towards the common good.
+* These standards are based on a unique principle or a set of principles.
+** For example, _The Golden Rule:_ Treat others as you would like to be treated.
+* Normative ethics is divided into three main branches:
+** Virtue theories
+** Duty theories
+** Consequential theories
+
+=== Virtue Theories
+
+They propose to cultivate virtue as end in itself, through the practice of good habits. The main virtue is the _prudence_.
+
+=== Duty Theories
+
+Also called deontology, these are based on mandatory principles, for example, fulfill responsibilities, independent of the consequences.
+
+=== Consequential Theories
+
+They study the relation of actions with its drawn consequences, evaluating the cost and benefit of the ethic procedure.
+
+=== Other Normative Theories
+
+* Secular ethics and religious ethics respond to normative ethics.
+** Secular ethics (laic ethics) is based on intellectual virtues, such as rationality, logical thinking and empathy.
+*** _Laic stands for the christian who practices its mission outside the church, it's baptized, but didn't receive the sacrament of the holy orders._
+*** _Religious ethics are based on the spiritual and theological virtual in the name of transcendental concepts. It varies from religion to religion._
+**** As example, solidarity, justice and love.
+
+== Applied Ethics
+
+* Applied ethics studies and applies the ethical questions to defined cases.
+* They need to achieve two conditions:
+** A moral question is addressed.
+** The topic must be controversial.
+*** These controversial situations can be: death penalty, gun control, abortion, euthanasia, biological weapons, etc.
+* Applied ethics is based on normative principles.
+* They are related to normative ethics, specially with duty and consequential theories.
+
+.Some examples of applied ethics are:
+* Professional ethics
+* Organizational ethics
+* Business ethics
+* Environmental ethics
+* Social ethics
+* Sexual ethics
+* Athletic ethics
+* Bioethics
+* Communication ethics
+* Research ethics
+* Laic or secular ethics
+* Religious ethics
+
+=== Professional Ethics
+
+* It refers to the set of principies and criteria that guide the actions of a person in the exercise of a profession.
+* It studies and anticipates scenarios in conflict between the professional moral and the compliance of duties.
+
+=== Juridical Ethics
+
+Orients the principles that guide the practice of law. Some of its topics are professional secrecy, the right to defense, among others.
+
+=== Medical Ethics
+
+Studies and determines which are the correct actions that a health professional must take in situations of conflict between morality and professional duty.
+
+=== Engineering Ethics
+
+It's related to the risk and safety of engineering projects in any of its areas.
+
+=== Teaching Ethics
+
+Establishes principles and rights by which the teacher or professor must govern his teaching activity as well as his relationship with students and the educational community.
+
+=== Military Ethics
+
+Establishes criteria for responsible military action, in order to limit the use of state violence as much as possible. For example, how to intervene in civil demonstrations.
+
+=== Organizational Ethics
+
+Refers to the guidelines of an organization in terms of principles and values, whose compliance is mandatory.
+
+These guidelines are based on the respect and tolerance of the members of the organization.
+
+=== Business Ethics
+
+* Reflects on scenarios of moral controversy in the responsibility of companies.
+* They are the principles and values that regulate the actions and activities of companies.
+* Some of these situations are:
+** Deceptive advertising
+** Unfair competition
+** Non-sustainable environmental exploitation
+** Labor discrimination
+** Violation of labor rights
+** Offer quality products, etc.
+
+=== Environmental Ethics
+
+* Studies the behavior of human beings with respect to the environment, with the scope of the common good.
+* It crosses with various areas, such as economics, medicine, law, etc.
+* Some recurring topics are:
+** Animal rights
+** Environmental over-exploitation
+** Endangered species, etc.
+
+=== Social Ethics
+
+* Studies ethical questions related to big social problems.
+* Some frequent topics are:
+** Human rights
+** Discrimination
+** Death penalty
+** Biological wars.
+** Gun control.
+
+=== Sexual Ethics
+
+* Studies the relationship of ethical and moral precepts with human sexuality and its practice.
+* For example:
+** Mutual consent
+** Adultery
+** Sexual exploitation
+** Celibacy, etc.
+
+=== Athletic Ethics
+
+* Establishes values and principles that guide the practice of sports.
+* Some of these values are:
+** Fair play
+** Partnership
+** Teamwork
+** Do not use doping
+
+=== Bioethics
+
+Studies the ethical relations that exist between science and life with living beings in itself.
+
+.Reflects on:
+* Abortion
+* Euthanasia
+* Genetic manipulation
+* Bio-nano-technology
+
+=== Communication Ethics
+
+Reflects on social responsibilities of communication media, such as:
+* Truthful information
+* Information balance
+* Freedom of expression
+* Media manipulation at the service of particular interests
+
+=== Research Ethics
+
+It's applied to all the research process, whether natural or social sciences.
+
+.Some debates are:
+* Research fraud
+* Data manipulation
+* Plagiarism
+* Experimentation with humans and animals
+
+=== Laic or Secular Ethics
+
+Set of values and principles that guide human behavior, based on intellectual virtues such as:
+* Empathy
+* Rational thinking
+* Logic
+
+=== Religious Ethics
+
+Principles that order human behavior based on spiritual virtues and transcendental concepts, such as:
+* The supreme good
+* Truth
+* The soul
+* Justice
+* The primordial order
+* Love
+
+It differs from one religion to another.
+
+Ética religiosa: principios que ordenan el comportamiento humano con base en virtudes espirituales y conceptos trascendentales, tales como:
+el sumo bien
+la verdad
+el alma
+la justicia
+el orden primordial
+el amor, etc. 
+Difiere de una religión a otra.
+
+== Types of Ethics according to Philosophical Schools
+
+* Old and medieval ethics
+** Socratic ethics
+** Platonic ethics
+** Aristotelian ethics
+** Epicurean ethics
+** Stoic ethics
+** Augustinian ethics
+** Thomistic ethics
+* Modern ethics
+** Hume
+** Kant
+** Max Scheler
+** Utilitarianism
+** Socialist ethics
+* Contemporary ethics
+** Nietzsche
+** Emotivism
+** Prescriptivism
+** Dialogic formalism
+** Communitarianism
+
+=== Old and Medieval Ethics
+
+==== Socratic Ethics
+
+Socrates sought to distinguish true virtue from the appearance of virtue, as well as to know what is the characteristic of the human being.
+
+==== Platonic Ethics
+
+Plato argues that Good and Truth are prior to the human being, and therefore must govern the life of the individual and the community.
+
+This meant for Plato that ethics is an end in itself.
+
+==== Aristotelian Ethics
+
+Aristotle argued that the purpose of all human activity is to achieve happiness. Ethics is a motive of human behavior rather than an end in itself.
+
+==== Epicurean Ethics
+
+It conceives ethics as the path to happiness, understanding happiness as pleasure.
+
+For the Epicureans, those who know how to distinguish which actions produce greater pleasure and less pain are wise.
+
+==== Stoic Ethics
+
+It states that there is a cosmic reason that determines destiny and that ethics is based on seeking inner peace in the face of inescapable destiny, without being disturbed by internal or external agents.
+
+==== Augustinian Ethics
+
+For Saint Augustine, good or happiness is identified with the loving encounter with God, principle and end of existence.
+
+The role of ethics is to provide a path for that encounter to be possible.
+
+==== Thomistic Ethics
+
+Proposed by Saint Thomas Aquinas, it makes a synthesis between Saint Augustine (God as Supreme Good and purpose of existence), and Aristotle (cultivating human activities as a path to earthly happiness).
+
+=== Modern Ethics
+
+==== Hume Ethics
+
+David Hume proposed that the distinction that the human being makes between good and evil depends on the passions and affections that rational thought.
+
+==== Kantian Ethics
+
+Immanuel Kant proposes that there is a relationship between the rationality of an action and morality.
+
+It understands that an immoral action is not entirely a rational action.
+
+==== Scheler Ethics
+
+Known as the material ethics of values, it considers values as goods that are captured and hierarchized through emotional intuition.
+
+It also states that values and duty are related.
+
+=== Modern Ethics
+
+==== Utilitarianism
+
+It has to do with classical hedonism.
+
+It suggest that the purpose of ethics is to achieve pleasure (happiness) for the greatest number of living beings and not only for the individual.
+
+==== Socialist Ethics
+
+It gathers the set of schools of socialistic schools from many authors, that found ethics on the principle of social justice.
+
+Among these:
+* Utopian socialism
+* Anarchism
+* Marxism
+
+===== Utopian Socialism
+
+* Is a school of socialistic and communistic theory focused on a more equal and fair society, alternatively to the class struggle of traditional socialism.
+* Utopian socialism is the base of the socialistic thought. It's considered that Henri Saint-Simon is the father of this movement.
+* Utopian socialism is based on social advance, in the distribution of goods in the community and work.
+* Scientific and industrial advance, according to utopian socialism, should serve to improve the conditions of society as a whole and not only of the bourgeoisie that owns the factors of production.
+
+===== Anarchism
+
+* It's a philosophical system and a political theory that corresponds to the absence of government.
+* The word anarchism comes from the Greek "ánarkhos", which means without government or without power.
+* Anarchism arises in the 19th century as a proposal of the English philosopher and politician William Godwin (1756-1836) of a new political and economic system different from capitalism.
+* Godwin states that society could live without laws and without the restrictions of a government, and achieve its balance through the freedom of individuals, which supposed the state of the ideal society.
+* Anarchism proposes principles based on the end of private property and the division of social classes, of the State and of the institutions in general, which supposes the absence of authoritarianism, oppression and domination.
+* It supports the creation of institutions by free agreement and association of citizens, and education to develop capabilities in man that allow him to reason for himself and thus be free.
+
+===== Marxism
+
+* Is the set of ideas, concepts, theses, theories and proposals of a philosophical, ideological, political and economic nature, as well as the conception of the world, social and political life, which is derived from the work of Karl Marx and Friedrich Engels, which has a doctrinal character.
+* Marxism is a current of thought, a theoretical-explanatory model of human reality that has served as the ideological basis of historical and dialectical materialism, communism and different types of socialism.
+* It is characterized by its critical rejection of capitalism and its economic system, the thesis of class struggle and the proposal to build an egalitarian, classless, communist society.
+* The objective of Marxism is for the workers themselves to manage the means of production through the State, which will make a classless society possible, which would prevent a minority from accumulating the means of production to exploit the majority.
+
+=== Contemporary Ethics
+
+==== Nietzsche Ethics
+
+===== Language Era Ethics
+
+It refers to the ethical currents from the end of the 19th century to the present.
+
+These focus their attention on the language of ethics and the forms of its statements.
+
+They have their antecedent in Nietzsche, who studied ethics from a historical and psychological perspective.
+
+.Some of these currents are:
+
+* Emotivism
+* Prescriptivism
+* Dialogic formalism
+* Communitarianism
+
+==== Emotivism Ethics
+
+* It's the meta-ethical current (part of ethics that deals with the analysis of moral language) that holds that value judgments come from individual emotions and the end will be to persuade others to feel as we feel.
+* Even trying to get those people who think totally different to value situations in the same way as we do.
+* Emotivism does not make use of rational means to demonstrate the validity of its proposal. It absolutely dispenses with it, it only uses emotions and their spontaneity as a means to know the moral truth.
+* Its main objectives are: to be the means to influence the behavior of people, through verbal actions, emotions, pleas, feelings.
+* And on the other hand, moral language is used to express one's own attitude towards situations or things and must be distinguished from simple subjectivism.
+
+==== Prescriptivism Ethics
+
+* It's the conception where moral judgments are prescriptions and therefore have the logical form of imperatives.
+* Prescriptivism was advocated by Richard M. Hare (1919) in The Language of Morals (1952).
+* Hare argued that it's impossible to derive a prescription from a set of descriptive sentences, and tried to find a basis for moral reasoning in the fact that moral judgments must be "universalizable".
+* If a certain action is judged incorrect, it's mandatory to judge as incorrect any similar action.
+* Universality is not a substantive moral principle, but a logical characteristic of moral terms.
+
+==== Dialogic Formalism Ethics
+
+* These ethical theories stand out among the most important theories of the 20th century.
+* They have in common their dialogic character, they are concerned with the communicative and / or linguistic dimension (hence they are considered ethics of the language era).
+* They are concerned with the communication conditions in which human groups can develop codes of values and moral norms common and beneficial to all members.
+* They collect the essence of the Kantian idea of respect for the person and the social concern of the utilitarians.
+* They have as a normative reference the human rights elaborated in the forum of the United Nations Organization.
+* Dialogic ethics focus on the study of the strategies of dialogue between individuals, that is, because they have come to the conclusion of only in this way can a moral world be built.
+* It's a joint search of all members of a society of how to reach positive moral values.
+
+==== Communitarianism Ethics
+
+* It's a current of thought that emerged in the United States in the 1980s, which proposes a new model of citizenship.
+* Communitarists believe in a link between the person and the group to which he belongs, these links are constitutive of the person and his identity.
+* Communitarism does not deny the importance of the individual traits of the individual, but gives priority to the community elements. Not to what makes us different from others, but to what makes us similar or similar.
+* The communitarian model of citizenship shares a conception of politics at the service of collective identity.
+* The moral beliefs shared by a group are what give meaning to its political and legal order, therefore this model defends the good over the just.
+
+== Occidental Philosophical Schools
+
+.The main philosophical schools of the West are:
+* Virtue, from Aristotle
+* Moral duty, from Kant
+* Utilitarianism, from Bentham and Mill
+
+=== Virtue as an Ethic
+
+It centers on the virtues of the human being, such as prudence, justice, temperance and fortitude.
+
+*I give the correct change because I am honest*
+
+=== Moral Duty as an Ethic
+
+Sets the moral duty as the center of ethics, that obey a categorical imperative category of respect for every human being.
+
+*If I give the correct change, it's because I have to do it*
+
+=== Utilitarianism as an Ethic
+
+Utilitarianism as the guiding axis of human behavior seeks to grant the greatest happiness or benefit the majority.
+
+*I give the correct change, otherwise I would be punished*

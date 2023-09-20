@@ -1,0 +1,532 @@
+= Deontology
+
+== Definition
+
+* The etymological origin of the term deontology comes from Greek and is the sum of two words:
+** "Deontos", which is translated as "duty or obligation".
+** "Logy", which is synonymous with "study".
+
+Deontology is a concept that is used to name the treaty or discipline that focuses on the analysis of *duties* and *values* governed by **morality*.
+
+* The British philosopher Jeremy Bentham was responsible for defining this concept.
+* Deontology is part of what is known as normative ethics (philosophy indicates what should be considered good and what should be classified as bad).
+
+*_How do we consider or qualify that it is good or bad?_*
+
+*_How do we interpret it?_*
+
+.Definition
+*You aren't responsible of what you do, but of what you don't do, don't defend and don't fight for.*
+
+* *_Is it bad to be a very good person?_*
+* *_Why yes or why not?_*
+
+* Deontology analyzes the internal duties of the individual.
+* That is, what you should do or avoid according to what dictates your *_conscience._*
+* The values shared and accepted by ethics are collected by the deontological codes.
+* Deontology is known as the *_theory of duty._*
+
+* *Conscience* is defined as the knowledge that an individual has of his thoughts, his feelings and his actions.
+* The word comes from the Latin _conscientĭa_, which is translated as 'knowledge', that is: with knowledge.
+* Inconscience means that the person is not able to perceive what happens to him or what happens around him.
+
+.Conscience
+* The conscience is the capacity of human beings to:
+** Recognize yourself
+** Have knowledge
+** Perception of your own existence and your environment
+* Conscience is associated with the mental activity that implies a domain by the individual himself over his senses.
+* A conscious person is one who has knowledge of what happens to him and in his environment.
+
+* The verb must come from the Latin word _debēre_.
+* The concept refers to having a certain obligation.
+* Example: "In an emergency, a doctor's duty is to save life, regardless of who the injured person is."
+* A duty arises from the imposition of a **law** or some type of *regulation*.
+* Example: Drivers must use a seat belt, as well as motorcycle drivers must wear a helmet. Those who do not comply with this **duty** commit an offense.
+
+* Duty also arises from a moral mandate linked to gratitude or respect.
+* Example: Let us suppose that a man finds out that a person who helped him in his childhood has economic problems. ➔ The subject feels that he has the duty to collaborate with the one who helped him in the past ➔ he offers him a job in his company.
+* Duty is also called a debt. If someone requests a loan of Bs. 5000 from a banking institution, with an interest of 10%, this person owes Bs. 5500 to the bank.
+* Duty can also refer to the task that students must carry out in their homes at the request of teachers in order to complete learning in class.
+
+* Duty can also allude to a debt. If someone requests a loan of Bs. 5000 from a banking institution, with an interest of 10%, this person owes Bs. 5500 to the bank.
+* Also called duty to the task that students must carry out in their homes at the request of teachers in order to complete learning in class.
+
+* Deontology or deontological theory is considered as an ethical theory that deals with regulating duties, translating them into:
+** Precepts
+** Moral norms
+** Rules of conduct
+* Jeremy Bentham, defines it as: "_the branch of art and science_ whose object consists of doing on each occasion what is right and appropriate ".
+* This theory applied to the professional field gives rise to professional deontology and determines the duties that are required of professionals in the performance of their activity.
+
+* Each profession, trade or specific area has its own deontology that indicates what the duty of each person is.
+* Professions have a deontological code, which is a manual or guide, which compiles the moral obligations that those who exercise a certain job must respect.
+
+.Definition of Deontology
+* Ethic code
+* Norms
+* Obligations
+* Collective
+* Consensual
+* Requirement
+* Action
+* Responsibility
+* Criteria
+* Self-regulation
+
+== Differences between Professional Ethics and Deontology
+
+* The difference between "ethics" and "deontology" is in:
+** Ethics refers to personal conscience
+** Deontology adopts a function of model of action in the area of a community.
+
+* Deontology, has sanctioning consequences.
+* In reference to professions, one can speak of the existence of an ethics and a particular deontology.
+** Ethics focuses on determining and profiling the good of a particular profession (contribution to the social good)
+** Deontology, focuses on defining what are the specific obligations of each activity.
+
+=== Professional Ethics
+
+* Oriented to the good
+* Not normative
+* Not enforceable
+* Proposes motivations
+* Individual conscience predominant
+* Amplitude is concerned with the maximum
+* Part of applied ethics
+
+=== Professional Deontology
+
+* Oriented to the duty
+* Norms and codes
+* Enforceable to professionals
+* Requires actions
+* Approved by a group of professionals
+* Minimum mandatory established
+* It is located between morality and law
+
+== Nature of deontological codes
+
+* The Statutes will regulate:
+** The regime of distinctions and awards
+** The disciplinary regime
+* The Statutes are the regulatory instrument to regulate the disciplinary regime of professional associations.
+* The Deontological Norms establish the corresponding professional duties, and their breach constitutes an infraction that would lead to a sanction, within the framework of the Statutes.
+
+* The approval of the Statutes is given by the Government through the respective Ministry.
+* It is a guarantee of legal security that the Deontological Norms cannot have, "per se". If not through the sufficient legal entity to typify a disciplinary infraction.
+* "_The purpose of the rules of the deontological codes is not_ _punitive of punishment of divergent behaviors, but preventive in the_ _sense of showing guidelines of excellence and of the_ _exercise of the social function that the professions have_ _entrusted"_.
+
+
+## Definición de deontología
+
+- Deber también puede aludir a una deuda. Si alguien solicita un
+    préstamo de Bs. 5000 a una institución bancaria, con un interés del
+    10%, esta persona debe Bs. 5500 al banco.
+- También se llama deber a la tarea que los alumnos deben realizar en
+    sus hogares por encargo de los maestros con el objetivo de completar
+    el aprendizaje en clase.
+
+
+## Definición de deontología
+
+- La deontología o teoría deontológica se considera como una teoría
+    ética que se ocupa de regular los deberes, traduciéndolos en:
+       - Preceptos
+       - Normas morales
+       - Reglas de conducta
+- Jeremy Bentham, la define como: “ _la rama del arte y de la ciencia_
+    _cuyo objeto consiste en hacer en cada ocasión lo que es correcto y_
+    _apropiado”._
+- Esta teoría aplicada al campo profesional da lugar a la deontología
+    profesional y determina los deberes que son exigibles a los
+    profesionales en el desempeño de su actividad.
+
+
+## Definición de deontología
+
+- Cada profesión, oficio o ámbito determinado tiene su propia
+    deontología que indica cuál es el deber de cada persona.
+- Las profesiones cuentan con un código deontológico, que es un
+    manual o guía, que recopila las obligaciones morales que tienen que
+    respetar aquéllos que ejercen un determinado trabajo.
+
+
+## Definición de deontología
+
+
+## Diferencias entre ética profesional y
+
+## deontología
+
+- La diferencia entre "ética" y "deontología" está en:
+    - La **ética** hace referencia a la conciencia personal
+    - La **deontología** adopta una función de modelo de actuación en el
+       área de una colectividad.
+
+
+## Diferencias entre ética profesional y
+
+## deontología
+
+
+## Diferencias entre ética profesional y
+
+## deontología
+
+- La Deontología, tiene consecuencias de carácter sancionador.
+- En referencia a las profesiones, se puede hablar de la existencia de
+    una ética y de una deontología determinada.
+       - La ética se centra en determinar y perfilar el bien de una
+          determinada profesión (aporte al bien social)
+       - La deontología, se centra en definir cuáles son las obligaciones
+          concretas de cada actividad.
+
+
+## Naturaleza de los códigos deontológicos
+
+- Los Estatutos regularán:
+    - El régimen de distinciones y premios
+    - El régimen disciplinario
+- Los Estatutos son el instrumento normativo para regular el régimen
+    disciplinario de los colegios profesionales.
+- Las Normas Deontológicas establecen los deberes profesionales
+    correspondientes, y su incumplimiento constituye una infracción que
+    llevaría a una sanción, en el marco de los Estatutos.
+
+
+## Naturaleza de los códigos deontológicos
+
+- La aprobación de los Estatutos es dado por el Gobierno se da través
+    del Ministerio respectivo.
+- Se trata de una garantía de seguridad jurídica que las Normas
+    Deontológicas no pueden tener, "per se“. Si no a través de la entidad
+    jurídica suficiente para tipificar una infracción disciplinaria.
+- _“La finalidad de las normas de los códigos deontológicos no es_
+    _punitiva de castigo de las conductas divergentes, sino preventiva en el_
+    _sentido de mostrar directrices de conducta de excelencia y del_
+    _ejercicio de la función social que las profesiones tienen_
+    _encomendadas”._
+
+
+## Justificación
+
+- Cualquier código es un híbrido jurídico-moral.
+- Responde:
+    - A la concreción de normas jurídicas generales
+    - A la especificación de normas jurídicas propias
+    - A la formulación de valores éticos que han de presidir la
+       investigación y la intervención.
+
+
+## Justificación
+
+- Los papeles que desempeña un código deontológico son:
+    1. Inspiración y guía
+    2. Apoyo a quienes actúan éticamente
+    3. Disuasivo y disciplinario
+    4. Educativo y de entendimiento mutuo
+    5. Contribuyen a la credibilidad y a la imagen pública de la profesión
+    6. Promueven el interés general
+
+
+## Justificación
+
+- Los principales objetivos de un código deontológico son:
+    1. Acotar responsabilidades profesionales
+    2. Promover el incremento de los conocimientos científicos y técnicos
+    3. Definir el comportamiento correcto del profesional con sus clientes y con otros
+       profesionales
+    4. Evitar la competencia desleal
+    5. Mantener el prestigio de la profesión
+    6. Perseguir un constante perfeccionamiento en las tareas profesionales
+    7. Atender al servicio público
+    8. Valorar la confianza como factor importante y decisivo en sus relaciones públicas
+    9. Servir de base para la aplicación de medidas disciplinarias.
+
+```
+¿Explicar el por qué?
+```
+
+## Características de las normas deontológicas
+
+##### Autorregulación
+
+- La autorregulación tiene que ver con el principio de autonomía
+    colegial.
+- Los profesionales son creadores, sujetos y objetos de las normas
+    deontológicas de su profesión correspondiente.
+- La función autorreguladora implica una constante actividad crítica y
+    evaluadora.
+
+
+## Características de las normas deontológicas
+
+### Legalidad
+
+- En respeto del principio de legalidad, las normas deontológicas deben
+    estar ordenadas en un sistema que ofrezca a todos seguridad jurídica.
+- El sistema debe tener la publicidad suficiente para que todos puedan
+    conocerlas.
+- Las normas deontológicas establecen los deberes de obligado
+    cumplimiento, por lo que no se reducen a consejos acerca de un
+    comportamiento deseable.
+
+
+## Características de las normas deontológicas
+
+### Tipicidad
+
+- El principio de tipicidad se refiere a la necesidad de la
+    predeterminación normativa de las conductas ilícitas y sanciones
+    correspondientes.
+
+
+## Características de las normas deontológicas
+
+**Publicidad**
+
+- Exigencia de difusión, necesario un conocimiento general y accesible.
+- La publicación de las normas adoptadas por el colegio pretenden
+    garantizar: conocimiento, autenticidad y constancia
+- Permiten la impugnación en un proceso declarativo acerca de su
+    validez.
+- Es un requisito imprescindible para hacer posible que su
+    cumplimiento resulte sometido a sanciones.
+
+
+## Características de las normas deontológicas
+
+### Publicidad
+
+- Los colegiados tienen la obligación de su conocimiento y difusión.
+- Los colegios deben fomentar la formación en deontología.
+- El profesional debe conocer su código deontológico, el cual no es
+    estático, va evolucionando y adaptándose a la realidad social
+
+
+## Evoluciones en la deontología profesional
+
+- _Rosco Pound, decano de Harvard, definió el_ **_profesionalismo_** _como_
+    _vocación hacia el servicio público, sin perjuicio de que constituya_
+    _también un medio para ganarse la vida._
+- Los profesionales deben velar por los intereses sociales generales y
+    constitucionalmente protegidos, que se encuentran relacionadas con
+    las actividades y funciones profesionales.
+
+
+## Evoluciones en la deontología profesional
+
+- La efectividad de los códigos deontológicos y su desarrollo dependen
+    de su capacidad para adaptarse a la sociedad que los demanda.
+- **_¿Por qué?_**
+- Los códigos éticos deben ser un proceso más que un resultado, su
+    dinamismo es una garantía de su ética y su nivel moral.
+- **_¿Por qué?_**
+- Se requiere que los códigos deontológicos se integren
+    responsablemente en la dinámica profesional en la vida y en la
+    sociedad.
+- **_¿Por qué?_**
+
+
+## Obligaciones de la Deontología
+
+- La Deontología impone obligaciones a los Profesionales que se han
+    formado académicamente ➔ están calificados para desempeñar una
+    ocupación especifica.
+- La sociedad se encarga de ubicar al profesional en un nivel acorde con
+    su calificación y realizar el bien común que la sociedad necesita.
+- Todas las profesiones por distintas que son, hacen su aporte a la
+    sociedad, brindando conocimientos científicos, tecnológicos, sociales,
+    etc.
+
+
+## Obligaciones de la Deontología
+
+- La Deontología, a través de las obligaciones que impone, reclama que
+    el profesional debe alcanzar las siguientes condiciones:
+       - Ser competente
+       - Ser eficiente
+       - Ser diligente
+       - Ser responsable
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser competente?_**
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser competente?_**
+- **_Fuente Propia_**^33
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser eficiente?_**
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser eficiente?_**
+- La eficiencia se refiere a la realización del trabajo bien hecho sin
+    desperdiciar recursos humanos y materiales.
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser diligente?_**
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser diligente?_**
+- La diligencia consiste en el cuidado, atención, agilidad y exactitud que
+    hay que poner el trabajo.
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser responsable?_**
+
+
+## Obligaciones de la Deontología
+
+- **_¿Qué es ser responsable?_**
+- La responsabilidad exige capacidad para responder ante sí mismo,
+    ante el resto de compañeros y directivos, y ante los clientes de las
+    consecuencias de lo que se hace o se dice en el desempeño
+    profesional
+
+
+## Los Derechos
+
+- **_¿Qué son los derechos?_**
+
+
+## Los Derechos
+
+- **_¿Qué son los derechos?_**
+- Se entiende por derechos a todas las leyes y normativas diseñadas
+    para proteger la libertad individual, garantizando así el bienestar de la
+    sociedad o los mecanismos de acción para procurarla.
+- Existen dos grandes categorías de derechos:
+    - Derechos humanos
+    - Derechos ciudadanos
+
+
+## Los Derechos
+
+**_¿Qué son los Derechos Humanos?_**
+
+
+## Los Derechos
+
+**_¿Qué son los Derechos Humanos?_**
+
+- Son las disposiciones asentadas en la Declaración Universal de los
+    Derechos Humanos, creada en 1948 por la ONU.
+- En los 30 artículos se establecen los derechos de carácter universal.
+- Se aplican a todos los individuos desde que nacen, sin ningún tipo de
+    discriminación.
+- Los derechos humanos están amparados por el Derecho Internacional
+    y deben ser procurados por todos los Estados que forman parte de la
+    ONU.
+- **_¿Cuales son los derechos humanos?_**
+
+
+## Los Derechos
+
+- **_¿Cuales son los derechos humanos?_**
+
+
+## Los Derechos
+
+#### ¿Qué son los Derechos Ciudadanos?
+
+
+## Los Derechos
+
+**_¿Qué son los Derechos Ciudadanos?_**
+
+- Los derechos ciudadanos son las disposiciones descritas en la constitución de
+    cada país y se garantizan dentro de ese territorio.
+- También son llamados **derechos fundamentales**.
+- Los derechos ciudadanos están amparados por las leyes y las instituciones
+    jurídicas nacionales y deben ser procurados por todos los Estados.
+- Los derechos ciudadanos parten de los derechos humanos, cada Estado define las
+    disposiciones legales para proteger su soberanía y a sus ciudadanos.
+- Los derechos ciudadanos pueden variar, pero en términos generales se clasifican
+    en:
+       - Derechos civiles y políticos
+       - Derechos económicos, sociales y culturales
+       - Derechos colectivos
+
+
+## Los Derechos
+
+**Derechos civiles y políticos**
+
+- Son los derechos que protegen a los ciudadanos contra posibles
+    acciones del Estado y le garantizan su inserción en la vida civil y
+    política de su país.
+- Ejemplos de derechos civiles y políticos son:
+    - el derecho al voto
+    - a la organización y participación política.
+
+
+## Los Derechos
+
+**Derechos económicos, sociales y culturales**
+
+- Hacen referencia a las garantías que deben ser dadas para el
+    desarrollo económico, social y cultural del individuo, con el objetivo
+    de que pueda vivir en bienestar y ser productivo para la sociedad.
+- Ejemplos de derechos económicos, sociales y culturales son:
+    - el derecho al trabajo
+    - a la salud y la educación gratuitas.
+
+
+## Los Derechos
+
+**Derechos colectivos**
+
+- Son los derechos creados para proteger a un grupo social y tienen la
+    intención de proteger la identidad e intereses de dichos grupos.
+- Un **ejemplo de derechos colectivos** es el principio de
+    autodeterminación de los pueblos.
+- **_¿Qué significa o cómo se entiende?_**
+
+
+## Los Derechos
+
+**Derechos colectivos**
+
+- Son los derechos creados para proteger a un grupo social y tienen la
+    intención de proteger la identidad e intereses de dichos grupos.
+- Un **ejemplo de derechos colectivos** es el principio de
+    autodeterminación de los pueblos.
+- **_¿Qué significa o cómo se entiende?_**
+    - Implica que cada Estado tiene derecho a establecer sus propias condiciones
+       políticas y a procurar su propio desarrollo económico, social y cultural.
+    - Los derechos colectivos han sido objeto de controversia, ya que para algunos
+       especialistas el ejercicio de estas garantías puede entrar en conflicto con los
+       derechos individuales. **_¿Por qué?_**
+
+
+## Deberes y Derechos
+
+- Los **derechos** son todos los mecanismos legales que protegen a los
+    individuos.
+- Los **deberes** son las obligaciones que deben cumplir para poder
+    ejercer sus derechos.
+- Los derechos y los deberes se crean para procurar la estabilidad social
+    y una convivencia armoniosa entre los ciudadanos.
+- Los derechos y los deberes están asentados en diversos instrumentos
+    legales que van desde la constitución de cada país hasta acuerdos
+    mundiales como la Declaración Universal de los Derechos Humanos,
+    creada y promovida por la Organización de Naciones Unidas.
+
+
+
