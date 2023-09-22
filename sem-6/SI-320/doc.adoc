@@ -2,6 +2,8 @@
 
 == Lecture
 
+=== xref:lectures/uml.adoc[UML]
+
 == Projects
 
 === xref:projects/project-1.adoc[Project 1: Requirements Definition]

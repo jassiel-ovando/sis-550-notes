@@ -1,15 +1,101 @@
-# Database
+= Databases
 
-- **Group**: A
-- **Subject Code**: SI-314
-- **Professor**: Egüez Terrazas, Carlos Wilfredo
+- *Group*: A
+- *Subject Code*: SI-314
+- *Professor*: Egüez Terrazas, Carlos Wilfredo
 
-## Lectures
+== Lectures
 
-## Assignments
+== Assignments
 
-### ER Assistant
+=== Entity Relationship Diagram
 
-### SQL Scripts
+Using ER Assistant only for modeling.
 
+==== Concessionaire
 
+Design a database that's useful for car dealerships or a concessionaire.
+
+* A dealership can sell various car brands.
+
+.Car information to be stored is:
+* Brand
+* Model
+* Chassis number (id)
+* Price
+* Discount (if applies)
+* Technical data:
+** Fiscal horsepower
+** Engine displacement
+** Etcetera
+
+.Car model information to be stored is:
+* Standard equipment:
+** Driver airbag
+** Central locking
+* Extra equipment:
+** Air conditioning
+** Copilot airbag
+** Metallic paint
+* Price of each extra equipment
+
+NOTE: The standard equipment of some models can be the extra equipment of others.
+
+* The dealership always has cars of various models in stock.
+* Cars can be found either within the dealership's premises or at any of the official service centers affiliated with the dealership.
+* An official service functions as a car dealership, but relies on the parent dealership to supply vehicles for display and sale.
+
+.Official service information to be stored is:
+* Name
+* Address
+* Tax identification number
+
+.Sold vehicles information to be stored is:
+* Who sold it: it can be one of the dealership's salesmen or an official service.
+* Selling price
+* Payment method: cash or through a financial institution.
+* Extra pieces included in the purchase
+
+.Extra pieces information to be stored at the moment of the sale:
+* Its prices
+* Delivery date
+* License plate details
+* If it was in stock or had to be ordered from the factory.
+
+.Salesmen's personal information to be stored:
+* Name
+* Id (from the store or from the official service)
+* Address
+* Etcetera
+* Sales history
+
+===== Solution
+
+.Entities
+* Seller
+** Concessionaire
+** Official Service
+* Car model
+* Car brand
+* Car equipment
+* Standard equipment
+* Extra equipment
+* Concessionaire store
+* Official Service store
+* Stock
+
+.Entities attributes (first attribute as the primary key)
+* Seller (supertype)
+** 
+* Concessionaire (Seller subtypes)
+* Official Service (Seller subtypes)
+* Car model
+* Car brand
+* Car equipment
+* Standard equipment
+* Extra equipment
+* Concessionaire store
+* Official Service store
+* Stock
+
+=== SQL Scripts
