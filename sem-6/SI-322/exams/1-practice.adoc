@@ -1,0 +1,151 @@
+= Partial 1 Practice
+:source-highlighter: highlight.js
+
+* Design a solution for a MariaDB database with high availability (MariaDB already has high availability)
+* Use 1 load balancer (haproxy), 3 database (maria-db) nodes and 3 repositories (samba).
+* An explanatory diagram is expected (using PlantUML)
+* A document with a step by step of the implementation and evidence of the operation.
+
+== Solution
+
+We need to configure a load balancer with HAProxy, this will distribute the incoming requests from the client to the database nodes, these database nodes will be configured with maria-db, and they must have high availability (wether is active-active or active-passive is up to you), finally, configure the repository nodes with samba and share those repositories with the database nodes.
+
+.Virtual machines:
+* ubuntu-server-balancer
+* ubuntu-server-db-1
+* ubuntu-server-db-2
+* ubuntu-server-db-3
+* ubuntu-server-repo-1
+* ubuntu-server-repo-2
+* ubuntu-server-repo-3
+
+=== Setup
+
+.Netplan configuration:
+[source,yaml]
+----
+# /etc/netplan/00-installer-config.yaml
+network:
+    ethernets:
+        <switch>: # External network
+            dhcp4: true
+        <switch>: # Internal network
+            dhcp4: false
+            addresses: [<Internal IP Address>]
+    version: 2
+----
+
+.Internal IP addresses:
+* ubuntu-server-balancer: 192.168.10.10/24
+* ubuntu-server-db-1: 192.168.10.21/24
+* ubuntu-server-db-2: 192.168.10.22/24
+* ubuntu-server-db-3: 192.168.10.23/24
+* ubuntu-server-repo-1: 192.168.10.31/24
+* ubuntu-server-repo-2: 192.168.10.32/24
+* ubuntu-server-repo-3: 192.168.10.33/24
+
+.Hostnames configuration:
+[source,text]
+----
+# /etc/hosts
+127.0.0.1 localhost
+127.0.1.1 <hostname>
+
+# Internal network
+192.168.10.10 cluster-balancer
+192.168.10.21 cluster-db-1
+192.168.10.22 cluster-db-2
+192.168.10.23 cluster-db-3
+192.168.10.31 cluster-repo-1
+192.168.10.32 cluster-repo-2
+192.168.10.33 cluster-repo-3
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+----
+
+.Packages:
+* haproxy: for the load balancer
+* samba: for the repositories
+* mariadb-server: for the database
+* mariadb-client: for the database
+* cif-utils: for mounting the repositories
+
+=== Load Balancer with HAProxy
+
+.Haproxy configuration:
+[source,conf]
+----
+# /etc/haproxy/haproxy.cfg
+frontend http-in
+        bind *:8404
+        default_backend web-servers
+backend web-servers
+        balance roundrobin
+        # Database nodes
+        server maria-db-1 192.168.10.21:80 check
+        server maria-db-2 192.168.10.22:80 check
+        server maria-db-3 192.168.10.23:80 check
+listen stats
+        bind *:8404 # port
+        mode http
+        stats enable
+        stats uri /haproxy_stats
+----
+=== Repositories with Samba
+
+* Create the directories for each repository.
+* Configure the `sbm.conf` file.
+* Create a user for each repository: `smbpasswd -a <username>`.
+* Allow the ports in the firewall.
+* Restart the service ()
+
+.Samba configuration file:
+[source,conf]
+----
+# /etc/samba/smb.conf
+[repo-n]
+    comment = Repository n
+    path = /home/jassiel/repo-n
+    read only = no
+    browsable = yes
+    writable = yes
+----
+
+.FSTAB configuration:
+[source,text]
+----
+# /etc/fstab
+//<hostname>/<repo-n> /home/jassiel/<repo-n> cifs username=jassiel,password=0811 0 0
+----
+
+.MariaDB configuration:
+[source,cnf]
+----
+# /etc/mysql/conf.d/galera.cnf
+[mysqld]
+binlog_format=ROW
+default-storage-engine=innodb
+innodb_autoinc_lock_mode=2
+bind-address=0.0.0.0
+
+# Galera Provider Configuration
+wsrep_on=ON
+wsrep_provider=/usr/lib/galera/libgalera_smm.so
+
+# Galera Cluster Configuration
+wsrep_cluster_name="galera_cluster"
+wsrep_cluster_address="gcomm://node1-ip-address,node2-ip-address,node3-ip-address"
+
+# Galera Synchronization Configuration
+wsrep_sst_method=rsync
+
+# Galera Node Configuration
+wsrep_node_address="node1-ip-address"
+wsrep_node_name="node1"
+----
+
