@@ -1,0 +1,108 @@
+= Ciencia, Tecnología e Innovación
+
+== Ciencia
+
+* Todo el conocimiento es adquirido a trave's del estudio, práctica.
+* Está constituida por principios y leyes
+* La ciencia se rige por métodos que son conformados por un conjunto de normas y pasos que le otorgarán *validez y rigor* científico al proceso de investigación.
+
+.Métodos científico
+* Inducción
+* Descripción
+* Explicación
+* Hipótesis
+* Experimentación
+* Demostración
+* Comparación
+
+* La ciencia en general, comprende varios *campos de conocimiento*, dentro de los cuales cada uno desarrolla sus propias teorías con base en sus *métodos científicos* particulares.
+* La ciencia es un conjunto de *conceptos y propiedades* que convergen en un objeto, y contienen:
+
+.Según Mario Bunge:
+* _Conjunto de conocimientos obtenidos mediante la observación y el raonamiento, y delos que se deducen principios y leyes generales._
+* 
+
+.What are its characteristics?
+* *It is Predictive:* It not only stays in the information obtained through experience. It tries to form an idea of how the past was, in order to predict how the future will be
+
+.*¿Cuáles son sus características?*
+* *Es Predictiva:* No solo se queda en la información obtenida a través de la expriencia. Trata de formar una idea de como fue el pasado, de manera de preecir como será el futuro
+* *Es Explicativa:* a ciencia trata de explicar los nuevos conocimiento a traveés de leyes universales establecidas, dejando en claro lo experimental como lo teórico.
+* *Es Sistemática:* recopila la infromación usa me'todo y técnicas, que permiten organizarla de manera que se peuda obtener resultados acertados
+* *Es Metódica:* Los científicos no generan los nnnuevos conocimiento con suerte. Se planean de forma detallada y organizada la forma como obtendrán lo que están buscando.
+* *Es Verificable:* No se queda en el campo teóricio, sino que se puede comporabar las nuevas hipóitesis mediante la practica experimental.
+* *Es Especializada:* La ciencia, abarca meuhoc stemas de estudio, sin emabrgo, al momento de crear nuevas hipótesis, leyes o conocimientos científicos, se concentran e n temas específicos.
+
+=== Características
+
+* La ciencia tiene como fundameto las *observaciones y experimentaciones*
+* El fin es, generar nuevos conocimiento, y las observaciones se organizan por medio de:
+** Métodos
+** MOdelos
+** Teorías
+* La ciencia se puede dividir:
+** Ciencias Básica
+** Ciencias Aplicadas
+
+.Ciencia Básica
+* Sin fines práctiso
+* *Incrementar el conocimietno* de los principios fundamentales de la nuaturaliz
+
+.Ciecia palicada
+* Es la palicacione del concoimiento de una o varía área espeicalizada s del laciencia par sresolver problemas p'racitco.
+* LA ciencia aplciada trata de:
+** Re
+
+.*¿Qué es la investigación?*
+* Proeso de descrubimiento de nuevo conocimiet.
+* ESta determinada por la vargiacui'n de datos o la busque da desoluciones para pporblemas concretos.
+* la investigación sigue un proceso sitematic.
+parte de alforamulacions de un porlem a desituaoicon a resolver
+
+* la objetividaddd es una condicion esencial durante este proceso
+* la busqueda no debe ser subjectivo, debe basarse en hechos veridicos para evitar cualquier tio de interpretacion personal o prejuicio.
+
+.objetivos de la investigacion cientifica
+* 
+
+.metodo cientifico
+* el concepto de metodo proviende del griego methodos que significa camino o camino a seguir, y hace referenciaa al medio que se usa para
+
+..etapas
+* observacion
+* plantemiento del problema
+* hipotesis: soluciones propuestas para le problema
+* experimentacion: verificacion de la hipotesis mediante la accion
+* analisis de resultados
+* conclusiones
+* teorias y elyes
+* publciacion y divulgacion
+
+Comprobar el mostrar un conjunto de hechos observados que concuerdan con la hipotesis. comporbacion valida rara deliberdad o indeliberadamnete amanada
+
+
+=== Pseudociencia
+
+disciplina determianda por un conjunto de practicas creencias conocimiento y metodologias no cientificas, pero que reclaman dicho caracter
+* astrologia
+* homeopatia
+* ufoologia
+* psicoanalisis
+* parapsicologia
+
+* la mayoria de la pseudociencias son disciplicnas que requieren pocos conicimeitnoy se bassan en posutlados simples
+* estos conocimientos se basan generalmente e nal altradicion o en dogmas establecidos hace tiempo o bien revelanciones transmitidas por los uspuesto sabios chamaner yatiris etc.....
+
+==== caracteristicas
+
+* invocan enntes inmateirales o sobrenaturales inaccesibles al examen empiricos
+* no someten sus epsecuallciones o prueba alguna
+* son dogmaticas
+* rechazan las criticas
+* faciles de aprender
+
+== Tecnología
+
+
+
+== Innovación

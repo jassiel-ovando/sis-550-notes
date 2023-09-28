@@ -6,6 +6,10 @@
 
 == Lectures
 
+== Exams
+
+=== xref:exams/1-practice.adoc[First Partial Practice]
+
 == Assignments
 
 === Entity Relationship Diagram

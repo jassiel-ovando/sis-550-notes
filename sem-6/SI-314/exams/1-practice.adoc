@@ -1,0 +1,34 @@
+= Practice for First Partial
+
+== Theory Questions
+
+.Questionary
+. ¿What differences exist between the conceptual model, the logical model and the physical model of data?
+. ¿What refers the cardinality in a relation?
+. ¿What refers the concept of weak entity?
+. ¿What is a relation of identification and in that cases is used?
+. ¿What is a database?
+. ¿What is a system of management of databases?
+. ¿What characteristics has a database?
+. ¿What is a relation?
+. ¿What is an entity?
+. ¿What is an attribute?
+. ¿Which are the main symbols used in the notation of Chen for diagrams entity relation?
+. ¿Which are the main symbols used in the notation Crow's foot for diagrams entity relation?
+
+.Answers
+. Differences:
+.. *The conceptual model:* This represents high-level, abstract concepts and relationships between data entities without considering specific technical details or implementation. It's often created during the initial stages of database design and focuses on the essential business elements.
+.. *Logical Model:* This is an intermediate step that defines the structure and organization of data without considering implementation details. It includes tables, fields, relationships, and constraints but remains independent of the database management system (DBMS) used.
+.. *Physical Model:* This represents the actual implementation of the database on a specific DBMS, taking into account storage structures, indexing, and other technical details. It deals with how data is stored on the hardware and is closely tied to the chosen DBMS.
+. Cardinality in a relation refers to the number of instances of one entity that are associated with the number of instances of another entity in a database relationship. Common cardinality notations include one-to-one (1:1), one-to-many (1:N), and many-to-many (N:N).
+. A weak entity is an entity in a database that does not have a primary key attribute of its own. Instead, it relies on a related strong entity, known as the owning or parent entity, to provide a partial or total key that uniquely identifies instances of the weak entity. Weak entities are typically represented in database diagrams with a double rectangle.
+. A relation of identification is a relationship between a weak entity and its owning or parent entity. It is used to establish the connection between the weak entity and the strong entity that provides the necessary attributes for identifying instances of the weak entity.
+. A database is a structured collection of data organized for efficient storage, retrieval, and manipulation. It typically consists of tables, each containing rows of data, and is managed by a database management system (DBMS).
+. A database management system is software that facilitates the creation, maintenance, and use of databases. It provides tools for defining data structures, querying data, and managing data security and integrity.
+. Common characteristics of a database include data organization, data integrity, data security, concurrent access, and data retrieval and manipulation capabilities.
+. In the context of databases, a relation is another term for a table. It consists of rows and columns and stores data in a structured format.
+. An entity is a real-world object, concept, or thing that can be uniquely identified and described. In database design, entities are represented as tables.
+. An attribute is a property or characteristic of an entity. In a database, attributes are represented as columns in a table.
+. Chen's notation typically uses rectangles to represent entities, diamond shapes to represent relationships, ovals to represent attributes, and lines with various notations (e.g., one, many) to indicate cardinality.
+. Crow's Foot notation uses a crow's foot symbol (three lines) to represent the "many" side of a relationship. It uses a straight line to represent the "one" side of a relationship, and rectangles to represent entities. Additionally, circles or ovals represent attributes.

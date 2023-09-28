@@ -2,11 +2,16 @@
 
 == Lectures
 
-=== xref:lectures/1-ethic-type.adoc[Types of Ethics]
+From the substitute teacher (Benavente).
 
-=== xref:lectures/2-ethical-dilemma.adoc[Dilemma of Ethics]
+=== xref:lectures/1-ethic-type.adoc[Ethic Type]
+
+=== xref:lectures/2-ethical-dilemma.adoc[Ethical Dilemma]
 
 === xref:lectures/3-deontology.adoc[Deontology]
+
+=== xref:lectures/4-URS.adoc[University Social Responsibility]
+From the teacher (Serrate).
 
 === Introduction
 
@@ -14,18 +19,22 @@
 
 ==== Technology and Poverty
 
-==== Estrategías Empresariales
+==== Business Strategies
 
-=== El Destino del Piraí
+=== The Fate of Piraí
 
-=== Reponsabilidad
+=== Responsibility
 
-==== Salud, Dinero y Amor
+==== Health, Money and Love
 
-==== La tecnología en tiempos de cólera
+==== Technology in Times of Cholera
 
-==== un multiverso de soluciones
+==== A Multiverse of Solutions
 
-=== xref:lectures/real-solutions.adoc[Real Solutions]
+==== xref:lectures/real-solutions.adoc[Real Solutions]
+
+=== Information for Students
+
+==== Mentimeter Slide
 
 === Información para Alumnos
