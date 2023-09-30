@@ -2,5 +2,78 @@
 
 == Concepts
 
-== Type of Games
+* Game theory is a branch of mathematics with applications to economics, sociology, biology and psychology, which analyzes the interactions between individuals who make decisions in a framework of formalized incentives (games). In a game, several agents seek to maximize their utility by choosing certain courses of action chosen by the rest of the individuals.
+* Game theory is a tool that helps to analyze interactive optimization problems. It also has many applications in the social sciences. Most of the situations studied by game theory involve conflicts of interest, strategies and traps. Of particular interest are situations in which a better outcome can be obtained when agents cooperate with each other than when agents try to maximize only their individual utility.
+
+== Elements
+
+* *Game:* Any set of circumstances that has a result dependent on the actions of two or more decision-makers (players).
+* *Players:* Individuals who make decisions in a game, seeking to obtain the best possible result for themselves. A strategic decision-maker within the context of the game.
+* *Actions:* Each of the possible decisions that a player can make within the game.
+* *Strategies:* A complete plan of action a player will take given the set of circumstances that might arise within the game.
+* *Information:* The information available at a given point in the game (The term information set is most usually applied when the game has a sequential component). The values information that each strategy will take.
+* *Payoffs:* The payout a player receives from arriving at a particular outcome (The payout can be in any quantifiable form, from dollars to utility).
+* *Equilibrium:* Set of strategies that the participants in a game choose to maximize their utility, given the strategies chosen by the rest of the participants.
+
+== Types
+
+life is full of conflict and competition. Numerous examples involving adversaries in conflict include board games, military combat, political campaigns, sports competitions, advertising and marketing campaigns in business competitions, among others. A basic feature in many of these situations is that the outcome is selected by the adversaries. Game theory is a mathematical theory that studies the general characteristics of competitive situations in a formal and abstract way. In addition, it attaches special importance to the decision-making processes of adversaries.
+
+This theory has applications in many areas, including economics, evolutionary biology, psychology, political science, industrial design, operations research, computer science and military strategy.
+
+.Among the types we have:
+* Symmetric and asymmetric games
+* Zero-sum and non-zero-sum games
+* Maximin and minimax strategies
+* Nash equilibrium
+* Simultaneous and sequential cooperative games
+* Perfect information games
+* Infinite length games (super games)
+
+=== Zero-Sum and Non-Zero-Sum Games
+
+==== Zero-Sum Games
+
+Games where the players interest are strictly the opposite.
+As example the rock-paper-scissors game, where one player wins and the other loses.
+
+The table would be:
+
+[%autowidth]
+|===
+| | Rock | Paper | Scissors
+
+| Rock 
+| (0,0)
+| (-1,1)
+| (1,-1)
+
+| Paper 
+| (1,-1) 
+| (0,0) 
+| (-1,1)
+
+| Scissors 
+| (-1,1) 
+| (1,-1) 
+| (0,0)
+|===
+
+==== Non-Zero-Sum Games
+=== Symmetric and Asymmetric Games
+=== Maximin and Minimax Strategies
+=== Nash Equilibrium
+=== Simultaneous and Sequential Cooperative Games
+=== Perfect Information Games
+=== Infinite Length Games
+
+== Nature
+
+Game theory is a logical analysis of conflict and cooperation situations, specifically, a game is defined in any situation where:
+
+* There are two or more players.
+* Each player has a finite number of possible actions.
+* The result of the game depends on the actions or strategies of all players.
+* The result of the game determines the utility or payoff of each player.
+
 

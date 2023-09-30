@@ -6,19 +6,17 @@
 
 == Lectures
 
-=== Dynamic Programming
+=== xref:lectures/1-dynamic.adoc[Dynamic Programming]
 
-=== Markov Chains
+=== xref:lectures/2-markov.adoc[Markov Chains]
+
+=== xref:lectures/3-game.adoc[Game Theory]
 
 === Graph Modeling
 
 === Queueing Theory
 
 === Decision Theory
-
-=== xref:lectures/3-game.adoc[Game Theory]
-
-
 
 === Nonlinear Programming
 

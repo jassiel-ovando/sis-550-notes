@@ -3,18 +3,18 @@
 == Theory Questions
 
 .Questionary
-. ¿What differences exist between the conceptual model, the logical model and the physical model of data?
-. ¿What refers the cardinality in a relation?
-. ¿What refers the concept of weak entity?
-. ¿What is a relation of identification and in that cases is used?
-. ¿What is a database?
-. ¿What is a system of management of databases?
-. ¿What characteristics has a database?
-. ¿What is a relation?
-. ¿What is an entity?
-. ¿What is an attribute?
-. ¿Which are the main symbols used in the notation of Chen for diagrams entity relation?
-. ¿Which are the main symbols used in the notation Crow's foot for diagrams entity relation?
+. What are the differences between the conceptual model, the logical model and the physical model of data?
+. What does cardinality refer to in a relationship?
+. What does the concept of weak entity refer to?
+. What is an identifying relationship and in which cases is it used?
+. What is a database?
+. What is a database management system?
+. What are the characteristics of a database?
+. What is a relationship?
+. What is an entity?
+. What is an attribute?
+. What are the main symbols used in Chen's notation for entity-relationship diagrams?
+. What are the main symbols used in Crow's Foot notation for entity-relationship diagrams?
 
 .Answers
 . Differences:

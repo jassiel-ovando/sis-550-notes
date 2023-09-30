@@ -1,22 +1,17 @@
-# Analysis for Decision Making
+= Analysis for Decision Making
 
-- **Group:** B
-- **Subject Code:** IT-323
-- **Professor:** Pinaya Johannessen, Gabriela Alejandrina
-  - **Email:**
-    - `gpinaya@Gmail.com`
-    - `gabrielapinaya@upsa.edu.bo`
+== Lectures
 
-## Lectures
+=== xref:lectures/1-intro-1.adoc[Introduction to Decision Making]
 
-### [1. Introduction to Decision Making](./lectures/1-introduction-1.md)
+=== xref:lectures/2-org-levels.adoc[Deciding Making at Strategic, Tactical and Operational Levels]
 
-### [2. Deciding Making at Strategic, Tactical and Operational Levels](./lectures/2-decision-organizational-levels.md)
+=== xref:lectures/3-intro-2.adoc[Continuation on Decision Making]
 
-### [3. Continuation on Decision Making](./lectures/3-introduction-2.md)
+== Assignments
 
-## Assignments
+=== The Virgin Way. How to Listen, Learn, Laugh and Lead - Sir Richard Branson
 
-### The Virgin Way. How to Listen, Learn, Laugh and Lead - Sir Richard Branson
+==== [Summary]
 
-#### [Summary](./assignments/virgin-way-summary.md)
+=== xref:assignments/[Social Networks]
