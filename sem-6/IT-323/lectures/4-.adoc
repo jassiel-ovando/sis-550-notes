@@ -1,0 +1,24 @@
+= ...
+
+* Hay que definir bien cales son las restricciones y las limitaciones.
+* Establecer una relación costo-beneficio, especificando los rendimientos que se esperan
+
+== Componentes del Proceso
+
+El tomar decisiones considera aspectos externos y propios a la persona que debe decidir.
+
+=== Información
+
+Estas se recogen tanto para los aspectos que están a favor como en contra del problema, con el fin de definir sus limitaciones.
+
+* Si la información no puede obtenerse, la decisión entonces debe basarse en los datos disponibles, los cuales caen en la categoría de información general.
+* La información es externa a la persona y por lo tanto debe ser recolectada de algún lugar.
+* Es el componente que puede tener elementos objetivos como subjetivos.
+* Para que sea relevante dependerá de las cualidades cognitivas del decidor.
+
+=== Análisis
+
+Es la forma de unir los componentes anteriores.
+* No puede hablarse de un método en particular para analizar un problema, debe existir un complemento, pero no un reemplazo de los otros ingredientes.
+* En ausencia de un método para analizar matemáticamente un problema
+
