@@ -1,8 +1,4 @@
-= MI-325 - Analysis for Decision-Making
-
-- **Group**: A
-- **Subject Code**: MI-325
-- **Professor**: Zegarra Uriona, Lucia Fernanda
+= Operational Research II
 
 == Lectures
 
@@ -12,16 +8,4 @@
 
 === xref:lectures/3-game.adoc[Game Theory]
 
-=== Graph Modeling
-
-=== Queueing Theory
-
-=== Decision Theory
-
-=== Nonlinear Programming
-
-=== Prognosis
-
-=== Equipment Replacement
-
-== Assignments
+==== xref:lectures/4-decision.adoc[Decision Theory]   

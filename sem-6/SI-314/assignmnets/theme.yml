@@ -1,0 +1,7 @@
+extends: default
+base:
+  font_size: 8
+  line_height_length: 10
+  font-color: #ff0000
+code:
+  font_family: consolas

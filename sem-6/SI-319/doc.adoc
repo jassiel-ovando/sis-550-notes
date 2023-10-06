@@ -2,7 +2,7 @@
 
 == Lectures
 
-From the substitute teacher (Benavente).
+From the substitute teacher.
 
 === xref:lectures/1-ethic-type.adoc[Ethic Type]
 
@@ -10,8 +10,11 @@ From the substitute teacher (Benavente).
 
 === xref:lectures/3-deontology.adoc[Deontology]
 
-=== xref:lectures/4-URS.adoc[University Social Responsibility]
-From the teacher (Serrate).
+=== xref:lectures/4-urs.adoc[University Social Responsibility]
+
+=== xref
+
+From the teacher.
 
 === Introduction
 

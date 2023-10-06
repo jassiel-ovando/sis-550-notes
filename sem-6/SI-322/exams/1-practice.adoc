@@ -1,5 +1,6 @@
 = Partial 1 Practice
 :source-highlighter: highlight.js
+:toc:
 
 * Design a solution for a MariaDB database with high availability (MariaDB already has high availability)
 * Use 1 load balancer (haproxy), 3 database (maria-db) nodes and 3 repositories (samba).
@@ -28,21 +29,23 @@ We need to configure a load balancer with HAProxy, this will distribute the inco
 network:
     ethernets:
         <switch>: # External network
+            optional: true
             dhcp4: true
         <switch>: # Internal network
             dhcp4: false
             addresses: [<Internal IP Address>]
+    renderer: networkd
     version: 2
 ----
 
 .Internal IP addresses:
-* ubuntu-server-balancer: 192.168.10.10/24
-* ubuntu-server-db-1: 192.168.10.21/24
-* ubuntu-server-db-2: 192.168.10.22/24
-* ubuntu-server-db-3: 192.168.10.23/24
-* ubuntu-server-repo-1: 192.168.10.31/24
-* ubuntu-server-repo-2: 192.168.10.32/24
-* ubuntu-server-repo-3: 192.168.10.33/24
+* balancer: 192.168.10.10/24
+* db-1: 192.168.10.21/24
+* db-2: 192.168.10.22/24
+* db-3: 192.168.10.23/24
+* repo-1: 192.168.10.31/24
+* repo-2: 192.168.10.32/24
+* repo-3: 192.168.10.33/24
 
 .Hostnames configuration:
 [source,text]
@@ -99,6 +102,7 @@ listen stats
 === Repositories with Samba
 
 * Create the directories for each repository.
+* Database node must be the samba host so it copies all the files to the repository (the repository node must be the samba client)
 * Configure the `sbm.conf` file.
 * Create a user for each repository: `smbpasswd -a <username>`.
 * Allow the ports in the firewall.
@@ -147,5 +151,83 @@ wsrep_sst_method=rsync
 # Galera Node Configuration
 wsrep_node_address="node1-ip-address"
 wsrep_node_name="node1"
+----
+
+=== PlantUML
+
+.Nicole Numberg's diagram:
+[plantuml,svg]
+----
+@startuml
+
+
+node Nodo0 [
+= Balanceador
+""HaProxy""
+""192.168.10.20""
+]
+
+rectangle TarjetaDeRed [
+  <--- 
+  ---> 
+]
+
+database Nodo1 [
+= Nodo 1
+""MariaDB"" ""Galera""
+""Samba Client""
+""192.168.10.21""
+]
+
+database Nodo2 [
+= Nodo 2
+""MariaDB"" ""Galera""
+""Samba Client""
+""192.168.10.22""
+]
+
+database Nodo3 [
+= Nodo 3
+""MariaDB"" ""Galera""
+""Samba Client""
+""192.168.10.23""
+]
+
+folder Repo1 [
+= Repositorio 1
+""Samba""
+""192.168.10.24""
+]
+
+folder Repo2 [
+= Repositorio 2
+""Samba""
+""192.168.10.25""
+]
+
+folder Repo3 [
+= Repositorio 3
+""Samba""
+""192.168.10.26""
+]
+Nodo0--TarjetaDeRed
+TarjetaDeRed-->Nodo1
+TarjetaDeRed-->Nodo2
+TarjetaDeRed-->Nodo3
+
+
+Nodo1-->Repo1
+Nodo2-->Repo2
+Nodo3-->Repo3
+
+@enduml
+----
+
+.My diagram:
+[plantuml,svg]
+----
+@startuml
+
+@enduml
 ----
 

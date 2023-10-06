@@ -1,0 +1,204 @@
+= Decision-Making Theory
+:stem: latexmath
+
+== conceptos
+
+* una decision es un juicio o seleccion entre dos o mas alternativas, que ocurre en numerosas y diversas situaciones de la vida.
+* la toeria de cisiones proporciona una manera util de clasificar modelos para la toma de decisiones.
+* se supondra que se ha definido el proeblema, que se tienen todos los datos y que se han identificado los cursos de accion alterativos.
+la tarea es entonces selecciona la mejor alternativa.
+la teoria de decisiones dice que esta tarea de hacer una seleccion caera en una de las cuatro cateogrias generales dependiendo de la habilidad personal para predecir las consecuencias de cada alternativa
+
+.categorias generales de decision
+|===
+| categorias | consecuencia predicha
+
+| bajo certidumbre
+| decision determinista
+
+| bajo riesgo
+| decision probabilistica
+
+| bajo incertidumbre
+| decisiones desconocidas
+
+| bajo conflicto
+| decisiones influidas por un oponente
+|===
+
+== tipos
+
+=== toma de decisiones bajo incertidumbre
+
+en los procesos de decision bajo incertidumbre, el decisor conoce cuales son los posibles estados de la naturaleza, aunque no dispone de informacion alguna sobre cual de ellos ocurrira.
+no solo es incapaz de predecir el estado real que se presentara. sino que ademas no puede cuantificar de ninguna forma esta incertidumbre.
+en particular, esto excluye el conocimiento de informacion de tipo probabilistico sobre las posibilidades de ocurrencia de cada estado.
+
+* si se puede predecir con certeza las consecuencias de cada alternativa de accion, entonces se tiene una terea de toma de decisiones bajo incertidumbre.
+* algunos modelos o tecnicas usadas para manejar estas decisiones son:
+** analisis del punto de equilibrio
+** programacion lineal
+** programaccion de la produccion
+** control de inventarios
+
+==== ejemplo de ejercicio
+
+un contratista de venta e instalacion de sistemas de calefaccion y aire acondicionado debe resoluer para el quince de septiembre la compra de unidades de aire acondicionado para su reventa e instalacion durante el verano siguiente.
+Con base en la demanda del verano anterior, las condiciones economicas corrientas y los factores competitivos del mercado, estima que existe una probabilidad de de vender solo 5 unidades, una probabilidad del de vender 10 unidades, una probabilidad de vender 15 unidadas un una probabilidad  de uender 20 unidadas.
+Las unidades de aire acondicionado solo pueden pedirse en grupcs de 5 unidades, 
+en tanto que su costo por unidad as de S 1000 y su precio de uenta as de 
+S 1300. las unidades no uendidas al termino de la temporada le son deuueltas 
+al fabricante con un crédito neto de S800, tras las reducci6n de ccstcs de 
+embarque. 
+
+=== toma de decisiones bajo riesgo
+
+* esta categoria incluye aquellas decisiones para las que las consecuencias de una accion dada depended de algun evento probabilistico.
+* _ejemplo:_ suponga que tiene un pequeñlo local de ventas de pinos para navidad.
+la primera tarea es decidir cuantos pinos ordenar para la siguiente temrporada.
+supongase que se debe pagar 3.5 usd por cada arbol, y se pueden orderar solo lotes de 100 y se planea venderlos a 8 usd cada uno.
+por supuesto, si no se venden, no tienen valor de recuparcion.
+se estudian los registros de ventas pasadas en las iglesias y se analiza el crecimiento potencial de las ventas con otros vendedores, llegando a las siguientes estimaciones para la siguiente temporada.
+
+|===
+| venta de pinos | probabilidad
+
+| 100 | 3%
+| 200 | 3%
+| 300 | 4%
+|===
+
+en cuanto en base a las utilidades y probabilidades
+
+|===
+.2+| 4+| ventas
+
+| 100 | 200 | 300
+| 3% | 3% | 4%
+.3+| compras | 100 | 450 | 450
+|===
+
+=== toma de decisiones en base a la esperanza matematica
+
+|===
+| venta de pinos | probabilidad
+
+| 100 | 3%
+| 200 | 3%
+| 300 | 4%
+|===
+
+.formula de la esperanza matematica
+[stem]
+++++
+E(x) = \cfrac{\sum{x_i \times p}}{1}
+++++
+
+.aplicacion al problema
+[stem]
+++++
+E(x) = 100 * 0.3 + 200 * 0.3 + 300 * 0.4 \\
+E(x) = 210 \\
+E(x) \approx 200
+++++
+
+=== toma de decision en base a costos
+
+|===
+.2+| compras 3+h| ventas 
+ h| 100 h| 200 h| 300
+h| 100 | 450 | 450 | 450
+h| 200 | 100 | 900 | 900
+h| 300 | -250 | 550 | 1350
+|===
+
+* para la utilidad: stem:[\text{utilidad} = \text{ventas} - (\text{compras o costos})]
+* para la compra: stem:[compra = 3.5]
+* para al venta: stem:[venta = 8]
+
+si el resultado sale negativo, no se puede.
+entonces
+
+|===
+| stem:[\text{valor de compra} - \text{valor de venta}] | resolucion
+
+2+| se puede
+| stem:[100 - 100] | stem:[100 \times 8 - 100 \times 3.5 = 450]
+| stem:[100 - 200] | stem:[100 \times 8 - 200 \times 3.5 = 100]
+| stem:[200 - 100] | stem:[200 \times 8 - 100 \times 3.5 = 1250]
+| stem:[200 - 200] s| stem:[200 \times 8 - 200 \times 3.5 = 900]
+| stem:[200 - 300] | stem:[300 \times 8 - 300 \times 3.5 = 550]
+| stem:[300 - 100] | stem:[300 \times 8 - 100 \times 3.5 = 2050]
+| stem:[300 - 200] | stem:[300 \times 8 - 200 \times 3.5 = 1700]
+| stem:[300 - 300] | stem:[300 \times 8 - 300 \times 3.5 = 1350]
+2+| no se puede
+| stem:[100 - 300] | stem:[300 \times 8 - 300 \times 3.5 = -250]
+|===
+
+=== toma de decision en base a costos y probabilidad
+
+==== ejemplo 1
+
+|===
+.2+| 3+h| ventas .2+|
+h| 100 h| 200 h| 300
+h| compras | 0.3 | 0.3 | 0.4 s| utilidad esperada
+h| 100 | 450 | 450 | 450 | 450
+h| 200 | 100 | 900 | 900 | 660
+h| 300 | -250 | 550 | 1350 | 630
+|===
+
+[stem]
+++++
+E(x) = 450 \times 0.3 + 450 \times 0.3 + 450 \times 0.4 = 450 \\
+E(x) = 100 \times 0.3 + 900 \times 0.3 + 900 \times 0.4 = 660 \\
+E(x) = -250 \times 0.3 + 550 \times 0.3 + 1350 \times 0.4 = 630
+++++
+
+==== ejemplo 2
+
+* costo de compra: 100
+* costo de venta: 1300
+* reventa a fabricante: 800
+
+|===
+| 3+h| ventas | 
+| h| 100 h| 200 h| 300 .1+|
+h| compras | 0.3 | 0.3 | 0.4 s| utilidad esperada
+h| 100 | 450 | 450 | 450 | 450
+h| 200 | 100 | 900 | 900 | 660
+h| 300 | -250 | 550 | 1350 | 630
+|===
+print("hello world")
+[stem]
+++++
+E(x) = 
+++++
+==== ejemplo 3
+
+Basado en un nuevo enfoque tecnológico un fabricante ha desarrollado un televisor 3D, con un tubo de 36 pulgadas. El propietario de un pequeño almacén minorista estima el precio de venta de $1800, podrían venderse 2 o hasta 5 televisores durante los siguientes tres meses. El margen de utilidad para cada televisor vendido es de $200. Si no se venden algunos televisores durante los tres meses, la pérdida total por televisor, para el minorista, será de $300. Basándose solo en estas consecuencias económicas, determine los mejores actos de decisión, de adquirir el número de televisores para ofertar en la tienda, desde el punto de vista, si se tienen las siguientes probabilidades de posibilidad de compra, 20% de comprar 2 unidades, 35% de comprar 3 unidades, 40% de comprar 4 unidades y 5% de comprar 5 unidades.
+
+=== teoria de decisiones con base unicamente en probabilidades
+
+==== toma de decision en base solo a probabilidad 
+
+se utiliza en concepto probabilistoc de la esperanza matematica o valor esperado.
+
+|===
+| demanda de mercado | probabilidad
+
+| 5 | 0.1
+| 10 | 0.3
+| 15 | 0.4
+| 20 | 0.2
+|===
+
+[stem]
+++++
+0.1 * 5
+0.3 * 10
+0.4 * 15
+0.2 * 20 = 13.5 \approx 15
+++++
+
+entonces se compran 15 unidades
