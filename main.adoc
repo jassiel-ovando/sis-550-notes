@@ -5,7 +5,7 @@ v2021.02
 :source-highlighter: highlight.js
 :icons: font
 :doctype: book
-:toc: auto
+:toc: book
 // :sectnums: |,all|
 
 Universidad Privada de Santa Cruz de la Sierra -- UPSA
@@ -44,16 +44,57 @@ Started on February 2023.
 === Ethic Hacker (*Extra*)
 
 == July-2023 Intensive Course
+
 === Advanced Data Structures
 
 == Semester 6
 
 Started on August 2023
 
-=== xref:sem-6/IT-323/doc.adoc[Analysis for Decision-Making]
+=== Analysis for Decision-Making
+
+==== Lectures
+
+===== xref:sem-6/IT-323/lectures/1-introduction.adoc[Introduction to Decision Making Theory]
+===== xref:sem-6/IT-323/lectures/2-business-levels.adoc[Types of Decisions on Business]
+===== xref:sem-6/IT-323/lectures/3-types.adoc[Types of Decisions for Analysis]
+===== xref:sem-6/IT-323/assignments/4-.adoc[...]
+
+==== Assignments
+
+===== xref:sem-6/IT-323/assignments/virgin-way.adoc[The Virgin Way. How to Listen, Learn, Laugh and Lead - Sir Richard Branson]
+
+Summary of the book, chapters 1 to 6. For first partial exam.
+
+===== xref:sem-6/IT-323/assignments/social-networks.adoc[The Social Dilemma and Social Networks]
+
+Advantages and disadvantages of social networks.
+
+===== xref:sem-6/IT-323/assignments/crocs-case.adoc[👎 ¿Por qué Crocs Cierra sus Fábricas? | Caso Crocs]
+
+https://youtu.be/Iv7SgvuYEc4?si=bPwVZLdysmMCXsvb[Link to video in Spanish.]
+
 === xref:sem-6/MI-325/doc.adoc[Operational Research II]
 === xref:sem-6/SI-120/doc.adoc[Fundamentals of Programming (*Auxiliary*)]
 === xref:sem-6/SI-314/doc.adoc[Database]
+
+- *Group*: A
+- *Subject Code*: SI-314
+- *Professor*: Egüez Terrazas, Carlos Wilfredo
+
+==== Lectures
+==== Assignments
+
+Using `ER Assistant` for modeling.
+
+===== xref:sem-6/SI-314/assignments/package-delivery.adoc[Package Delivery]
+===== xref:sem-6/SI-314/assignments/veterinary.adoc[Veterinary]
+===== xref:sem-6/SI-314/assignments/concessionaire.adoc[Concessionaire -- Car Dealership]
+===== xref:sem-6/SI-314/assignments/kindergarten.adoc[Kindergarten]
+
+==== Exams
+
+===== xref:sem-6/SI-314/exams/1-practice.adoc[Practice for First Partial Exam]
 === xref:sem-6/SI-319/doc.adoc[Ethics & Values]
 === xref:sem-6/SI-320/doc.adoc[Software Engineering]
 === xref:sem-6/SI-322/doc.adoc[Laboratory of Operating Systems II]

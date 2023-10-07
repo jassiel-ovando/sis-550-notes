@@ -1,9 +1,7 @@
 = Structured Query Language
-:   theme: theme.yml
+:theme: theme.yml
 :source-highlighter: highlight.js
 :highlightjs-theme: monokai-sublime
-base:
-    font-family: Cascadia Code
 
 consultas sobre la base de datos de la veterinaria
 
