@@ -4,7 +4,28 @@ https://youtu.be/Iv7SgvuYEc4?si=bPwVZLdysmMCXsvb[Enlace al video usado] para el 
 
 == Línea de Tiempo
 
+.Línea de Tiempo
+* *2002:* La empresa Crocs es fundada en Colorado, Estados Unidos.
+* *2006:* La empresa se hace pública en la bolsa de valores de Estados Unidos. Y los ingresos de la empresa se disparan a 847 millones de dólares.
+* *2008:* La Crocs empieza a tener un declive en sus ventas, y empieza a hacer un análisis, creyendo sea por competencia, crisis económica, etc.
+Como solución empiezan a hacer nuevos diseños.
+* *2011:* La empresa empieza a tener nuevas perdidas y se da cuenta que dependen mucho de la moda.
 
+.Problemas de los cuales la empresa se dio cuenta
+* Crocs dependía mucho de la moda.
+* Crocs asoció su producto estrella como la marca.
+* Crocs no tenía un producto vaca que le permitiera salvarse de la quiebra.
+* Incapacidad de otros productos de sustentar la empresa.
+* La imagen de la empresa se vio afectada por la moda.
+
+.Continuación de la línea de tiempo
+* *2013:* La empresa adopta una nueva estrategia sobre reducir los costes de infraestructura.
+Para así centrarse en el mercado en línea.
+A medida que la empresa empieza a reducir la inversión a las infraestructuras y locales, empiezan a cerrar las fabricas y locales.
+Así poco a poco externalizan la producción a terceros.
+* *2013 para adelante:*
+** La empresa empieza a colaborar con celebridades para recuperar su imagen.
+** La empresa encuentra un nicho en el mercado de los restaurantes y hospitales.
 
 === Matriz de Crecimiento - Participación
 
@@ -36,8 +57,18 @@ El error de la empresa fue, principalmente, haber dependido fuertemente de que s
 Debido a ese error, las ventas de productos estrellas pasaron a convertirse a productos *interrogantes*, y finalmente a productos *perros*, lo que llevó a la empresa a la quiebra.
 Es entonces en ese momento cuando a la empresa se ocurre hacer una análisis de mercado sobre donde se usan más sus productos, y empiezan a desarrollar un producto *vaca* que les permita salvarse de la quiebra.
 
-== Análisis
-
-
-
 == Conclusión
+
+Problema principal de la empresa::
+Dependencia de la moda y asociación del producto estrella a la maraca.
+
+Matriz de productos de la empresa::
+    Estrella::: Crocs clásicos.
+    Vaca::: Crocs para restaurantes y hospitales.
+    Interrogante::: Productos alternativos a los Crocs.
+    Perro::: Crocs clásicos, al mismo tiempo porque dejaron de venderse cuando pasaron de moda. Además de los productos alternativos porque fallaron.
+
+Factor que logro salvar a la empresa::
+*Curiosidad.*
+La empresa se dio cuenta que sus productos se usaban mucho en restaurantes y hospitales, y empezaron a desarrollar productos para ese nicho de mercado, lo que les permitió salvarse de la quiebra.
+Además de que la empresa empezaba a analizar por qué sus ventas bajaban, y decidieron hacer alternativas para tales ocasiones. 

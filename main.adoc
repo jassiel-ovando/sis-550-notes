@@ -97,4 +97,18 @@ Using `ER Assistant` for modeling.
 ===== xref:sem-6/SI-314/exams/1-practice.adoc[Practice for First Partial Exam]
 === xref:sem-6/SI-319/doc.adoc[Ethics & Values]
 === xref:sem-6/SI-320/doc.adoc[Software Engineering]
+
+==== Lectures
+
+===== 
+===== Unified Modeling Language
+
+==== Assignments
+
+===== 
+
+==== Projects -- Exams
+
+
+
 === xref:sem-6/SI-322/doc.adoc[Laboratory of Operating Systems II]
