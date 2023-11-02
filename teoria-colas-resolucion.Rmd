@@ -1,0 +1,424 @@
+---
+title: "Práctico Teoría de Colas"
+author: "Jassiel Ovando Franco (2021 117600)"
+date: "31 de octubre de 2023"
+output:
+  html_document: default
+  pdf_document: default
+editor_options: 
+  markdown: 
+    wrap: sentence
+  chunk_output_type: inline
+---
+
+```{r, include=FALSE}
+library(queueing)
+library(knitr)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+options(tinytex.verbose = TRUE)
+options(scipen = 999)
+```
+
+# Problema 1
+
+La comisión de control de trafico y peso en carreteras, tiene un numero de estaciones para el pesado de camiones a lo largo de la carretera SC-CBBA, para verificar que el peso de los vehículos de carga cumple con las regulaciones estatales.
+
+La administración de la comisión esta considerando mejorar la calidad del servicio en sus estaciones de pesado y ha selecciona una de las instalaciones como modelo a estudiar, andes de efectuar los cambios pico, cuando llega a la balanza el mayor numero de camiones, suponiendo que el sistema puede desempeñarse bien durante este periodo, el servicio en cualquier otro momento será mejor aun mejor.
+
+El encargado de operaciones realiza el levantamiento de información, y según estadísticas se tienen que el *numero de camiones que llegan por hora es en promedio 60 unidades*, y el *numero promedio de camiones que pueden ser pesados por hora es de 66 camiones*.
+Tanto *las llegadas de los vehículos como el proceso de pesado tienen un tiempo de duración probabilística que se ajusta a la distribución de Poisson*.
+
+1. ¿Cuál es la probabilidad de que no haya solicitudes de ayuda en el sistema?
+2. ¿Cuál es la cantidad promedio de solicitudes que esperaran por el servicio?
+3. ¿Cuál es el tiempo de espera promedio en minutos antes de que comience el servicio?
+4. ¿Cuál es el tiempo promedio en el escritorio de referencia en minutos (tiempo de espera mas tiempo de servicio)?
+5. La rampa de salida de la carretera tiene una capacidad de 12 camiones, pero la gerencia esta preocupada pues hay ocasiones en que la cola llega hasta la autopista, ¿Cuál es la probabilidad de que esto ocurra?
+
+## Solución
+
+Definición de modelo: $M/M/1$.
+
+Datos:
+
+\begin{align*}
+\lambda & = \cfrac{60~\text{camiones}}{\text{hora}} \\
+\mu & = \cfrac{66~\text{camiones}}{\text{hora}}
+\end{align*}
+
+### Probabilidad de que no haya solicitudes de ayuda en el sistema
+
+```{r}
+# Datos
+lambda <- 60 # camiones por hora
+lambda <- lambda / 60 # camiones por minuto
+
+mu <- 66 # camiones por hora
+mu <- mu / 60 # camiones por minuto
+
+varphi <- lambda / mu
+
+i_mm1 <- NewInput.MM1(lambda, mu)
+o_mm1 <- QueueingModel(i_mm1)
+
+P0 <- 1 - (varphi)
+P0
+```
+
+La probabilidad es del casi 9.09%.
+
+### Cantidad promedio de solicitudes que esperaran por el servicio
+
+$$
+L_q = \cfrac{\varphi ^ 2}{P_0}
+$$
+  
+```{r}
+Lq(o_mm1) # Número promedio de camiones en la cola
+```
+
+La cantidad promedio viene a ser de 9 (.09) camiones.
+
+### Tiempo de espera promedio en minutos antes de que comience el servicio
+
+$$
+W_q = \cfrac{L_q}{\lambda}
+$$
+
+```{r}
+Wq(o_mm1) # Tiempo promedio de espera en la cola en minutos
+```
+
+El tiempo promedio antes de que comience a ser atendido es 9.09... minutos.
+
+### Tiempo promedio en el escritorio de referencia en minutos (tiempo de espera mas tiempo de servicio)
+
+$$
+W = W_q + \cfrac{1}{\mu}
+$$
+
+```{r}
+W(o_mm1) # Tiempo promedio en el escritorio de referencia en minutos
+```
+
+El tiempo promedio que se esperaría en el escritorio de referencia más el tiempo de servicio es 10 minutos.
+
+### Probabilidad de que la cola llegue hasta la autopista
+
+$$
+P_{n = 12} = \varphi ^ n \times P_0
+$$
+
+```{r}
+i_mm1 <- NewInput.MM1(lambda, mu, n = 12)
+o_mm1 <- QueueingModel(i_mm1)
+Pn(o_mm1) # Probabilidad de que la cola llegue hasta la autopista
+```
+
+La probabilidad de que llegue hasta la autopista es de 2.9%.
+
+# Problema 2
+
+El autoservicio en una gasolinera local, **con una tasa promedio de 7 minutos por carro**, es mas lento que el servicio asistido, **que posee una tasa de 6 minutos por carro**.
+El gerente de la gasolinera *desea calcular el numero promedio de clientes en la gasolinera y de clientes esperando el servicio*, *el tiempo promedio que cada carro gasta en la gasolinera* y *el tiempo promedio que cada carro gasta esperando servicio*.
+Suponga que los **clientes llegan aleatoriamente a cada línea a una tasa de 5 carros por hora**.
+
+**Calcule la estadística adecuada de operaciones de esta gasolinera y de un consejo final al gerente.**
+
+## Solución
+
+Modelo: $M/M/1$.
+
+Datos:
+
+\begin{align*}
+\mu & = \cfrac{1~\text{carro}}{7~\text{minutos}} ~ \text{autoservicio} \\
+\mu & = \cfrac{1~\text{carro}}{6~\text{minutos}} ~ \text{servicio asistido} \\
+\lambda & = \cfrac{5~\text{carros}}{\text{hora}}
+\end{align*}
+
+### Estadística de operaciones de la gasolinera
+
+Buscando mejorar la gasolinera con autoservicio.
+
+#### Número promedio de clientes en la gasolinera y de clientes esperando el servicio
+
+```{r}
+# Datos
+lambda <- 5 # carro por hora
+lambda <- lambda / 60 # carro por minuto
+mu <- 1 / 7 # carro por minuto
+
+i_mm1 <- NewInput.MM1(lambda = lambda, mu = mu)
+o_mm1 <- QueueingModel(i_mm1)
+
+L.o_MM1(o_mm1) # Número promedio de clientes en la gasolinera
+```
+
+El número promedio de clientes en el sistema (gasolinera más servicio) es de 1 carro.
+
+#### Tiempo promedio que cada carro gasta en la gasolinera
+
+```{r}
+W.o_MM1(o_mm1) # Tiempo promedio que cada carro gasta esperando servicio
+```
+
+El tiempo promedio que cada carro gasta en la gasolinera es de 16.8 minutos.
+
+#### Tiempo promedio que cada carro gasta esperando servicio
+
+```{r}
+Wq.o_MM1(o_mm1) # Tiempo promedio que cada carro gasta en la gasolinera
+```
+
+El tiempo promedio que cada carro gasta esperando por el servicio es 9.8 minutos.
+
+### Consejo final al gerente
+
+El consejo sería 
+
+# Problema 3
+
+Considere un restaurante de comida rápida con menú limitado.
+El restaurante se esta diseñando para que todos los clientes se unan a una sola línea para ser servidos.
+Una orden es una llegada sin importar cuantas personas comparten esa orden.
+Una persona tomará la orden y la servirá.
+Con sus limitaciones, la tasa de servicio puede aumentarse agregando mas personas para preparar la comida y servir las ordenes.
+Esto constituye un sistema de un servidor y una sola línea.
+Si las llegadas y las salidas son aleatorias, pueden aplicarse el modelo de una sola cola.
+
+**Supóngase que la administración quiere que el cliente promedio no espera más de dos minutos antes que se tome su orden, y también supóngase que la tasa de llegadas es 30 órdenes por hora.**
+
+**Si una brigada de 5 personas pueden manejar 45 ordenes por hora, será suficiente para poder cumplir con el tiempo de espera menor de 2 minutos?**
+
+## Solución
+
+### ¿Es suficiente una brigada de 5 personas para cumplir con el tiempo de espera menor de 2 minutos?
+
+Modelo de colas de un servidor con llegadas exponenciales y servicio exponencial.
+
+¿Por qué?
+Porque se tiene un solo servidor (ventana de servicio) y las llegadas son aleatorias (no se sabe cuándo llegará un cliente).
+
+#### Datos
+
+- Tasa de llegadas: $\lambda = \frac{30~\text{ordenes}}{\text{hora}}$.
+- Brigada de 5 personas.
+- Tasa de servicio: $\mu = \frac{45~\text{ordenes}}{\text{hora}}$.
+- Tiempo de espera: $W_q < 2~\text{min}$.
+
+```{r}
+Wq <- 2 # min
+Wq <- Wq / 60 # h
+lambda <- 30
+mu <- 45
+
+i_mm1 <- NewInput.MM1(lambda, mu)
+o_mm1 <- QueueingModel(i_mm1)
+
+Lq(o_mm1) # Número promedio de clientes en la cola
+Wq(o_mm1) # Tiempo promedio de espera en la cola en horas
+Wq(o_mm1) < Wq # ¿Es menor a 2 minutos?
+```
+
+Entonces:
+
+- Número promedio de clientes en la cola: `r Lq(o_mm1)`.
+- Tiempo promedio de espera en la cola: `r Wq(o_mm1) * 60` minutos.
+- ¿Cumple con el tiempo de espera menor a 2 minutos?: No.
+
+Se debe aumentar una persona más a la brigada.
+
+# Problema 4
+
+Las llegadas a una caseta telefónica se consideran que son de tipo poisson, con un tiempo medio de 10 minutos entre una llegada y la siguiente.
+El tiempo de una llamada telefónica se supone que se distribuye exponencialmente, con una media de 3 minutos.
+
+1.  ¿Cuál es la probabilidad de que no haya solicitudes de ayuda en el sistema?
+2.  ¿Cuál es la cantidad promedio de solicudes que esperaran por el servicio?
+3.  ¿Cuál es el tiempo de espera promedio en minutos antes de que comience el servicio?
+4.  ¿Cuál es el tiempo promedio en el escritorio de referencia en minutos (tiempo de espera mas tiempo de servicio)?
+
+## Solución
+
+### Probabilidad de que no haya solicitudes de ayuda en el sistema
+
+### Cantidad promedio de solicudes que esperaran por el servicio
+
+### Tiempo de espera promedio en minutos antes de que comience el servicio
+
+### Tiempo promedio en el escritorio de referencia en minutos (tiempo de espera mas tiempo de servicio)
+
+# Problema 5
+
+Considere la biblioteca de una universidad cuyo personal esta tratando de decidir cuantas fotocopias debe instalar para uso de los estudiantes.
+Los estudiantes llegan en un promedio de 10 estudiantes por hora para sacar sus copias.
+No se sabe cual es el costo de espera para un estudiante, peso se piensa que no deben tener que esperar mas de cinco minutos en promedio.
+
+**Si el numero promedio de estudiantes que se hacen por usuario la fotocopiadora es de 18 estudiantes/hr, ¿se esta cumpliendo con tiempo esperado?**
+
+## Solución
+
+### ¿Se esta cumpliendo con tiempo esperado?
+
+# Problema 6
+
+La empresa **auto limpio** mantiene reparaciones de servicio para realizar reparaciones mayores y dar servicio a sus vehículos.
+Datos históricos muestran que (a) los taxis tienen descomposturas mayores de acuerdo con un proceso de Poisson a una tasa promedio de 1 cada 16.8 horas, incluyendo los fines de semana y (b) la cantidad de tiempo requerido por un mecánico para reparar un taxi sigue una distribución exponencial con un promedio de 2 cada 24 horas.
+
+1. ¿Cuál es la probabilidad de que no haya autos descompuestos en el taller?
+2. ¿Cuál es la cantidad promedio de autos que esperaran por el servicio?
+3. ¿Cuál es el tiempo de espera promedio en horas antes de que comience el servicio?
+4. ¿Cuál es el tiempo promedio en todo el sistema de referencia en horas (tiempo de espera mas tiempo de servicio)?
+
+## Solución
+
+### Probabilidad de que no haya autos descompuestos en el taller
+
+### Cantidad promedio de autos que esperaran por el servicio
+
+### Tiempo de espera promedio en horas antes de que comience el servicio
+
+### Tiempo promedio en todo el sistema de referencia en horas (tiempo de espera mas tiempo de servicio)
+
+# Problema 7
+
+Con la proximidad de la navidad, la tienda de departamento **El habitad** esta tratando de determinar cuantas operadoras de teléfonos extra debe contratar.
+Una operadora puede atender, en promedio ocho llamadas por minuto (con distribución de poisson).
+Se espera que se reciban llamadas en forma aleatoria con una tasa promedio de 5 por minuto.
+
+**Se quiere que se contesten en 15 segundos promedio ¿se esta cumpliendo con este requisito?**
+
+## Solución
+
+### ¿Se esta cumpliendo con este requisito?
+
+# Problema 8
+
+Considere la biblioteca de una universidad cuyo personal está tratando de decidir cuantas fotocopias debe instalar para uso de los estudiantes.
+Se ha escogido un equipo particular que puede hacer *hasta 10 fotocopias por minuto*.
+No se sabe cuál es el costo de espera para un estudiante, pero se piensa que *no deben tener que esperar más de 2 minutos en promedio*.
+
+*Si el numero promedio de copias que se hacen por usuario es 5*, **¿Cuántas fotocopiadoras se deben instalar?**
+
+*Suponga además que los periodos pico de fotocopiado tienen una tasa de llegada de 60 estudiantes por hora.*
+
+## Solución
+
+Modelo de colas de un servidor con llegadas exponenciales y servicio exponencial.
+
+¿Por qué?
+Porque se tiene un solo servidor (fotocopiadora) y las llegadas son aleatorias (no se sabe cuándo llegará un estudiante a hacer fotocopias).
+
+### ¿Cuántas fotocopiadoras se deben instalar?
+
+```{r}
+# Datos
+equipo_copias_minuto <- 10
+# Wq <= 2 minutos
+prom_copias_usuario <- 5
+est_llegada_hora <- 60
+
+est_llegada_minuto <- est_llegada_hora / 60
+
+lambda <- est_llegada_minuto
+mu <- equipo_copias_minuto / prom_copias_usuario
+
+i_mm1 <- NewInput.MM1(lambda, mu) # Entrada de datos
+o_mm1 <- QueueingModel(i_mm1) # Modelo de colas
+
+Lq(o_mm1) # Número promedio de estudiantes en la cola para la foto copiadora
+```
+
+Se necesita 1 fotocopiadora.
+
+# Problema 9
+
+La empresa **auto limpio** mantiene reparaciones de servicio para realizar reparaciones mayores y dar servicio a sus vehículos.
+Datos históricos muestran que (a) los taxis tienen descomposturas mayores de acuerdo con un proceso de Poisson a una tasa promedio de 2 cada 24 horas, incluyendo los fines de semana y (b) la cantidad de tiempo requerido por un mecánico para reparar un taxi sigue una distribución exponencial con un promedio de 16.8 horas.
+
+**Evalúe el problema y determine si la compañía deberá tener dos o tres mecánicos trabajando todos los periodos.**
+
+## Solución
+
+### ¿La compañía deberá tener dos o tres mecánicos trabajando todos los periodos?
+
+# Problema 10
+
+Considere un restaurante de comida rápida con menú limitado.
+El restaurante se esta diseñando para que todos lo clientes se unan a una sola línea para ser servidos.
+Una orden es una llegada sin importar cuantas personas comparten esa orden.
+Una persona tomara la orden y la servirá.
+Con sus limitaciones, la tasa de servicio puede aumentarse agregando mas personas para preparar la comida y servir las ordenes.
+Esto constituye un sistema de un servidor y una sola línea.
+Si las llegadas y las salidas son aleatorias, pueden aplicarse el modelo de una sola cola.
+
+**Supóngase que la administración quiere que el cliente promedio no espera mas de dos minutos antes que se tome su orden, y también supóngase que la tasa de llegadas es 30 órdenes por hora.**
+
+**Si una brigada de cinco personas puede manejar 45 órdenes por hora y, una brigada de diez puede manejar 90 órdenes, entonces, ¿de cuantas personas deberá esta formada la brigada para poder atender las ordenes de una manera satisfactoria?**
+
+## Solución
+
+### ¿De cuantas personas deberá esta formada la brigada para poder atender las ordenes de una manera satisfactoria?
+
+# Problema 11
+
+El restaurante **el buen apetito** está estudiando la instalación de una ventana de servicio a los autos para aumentar sus ventas.
+Como parte de la planeación, la administración quiere saber que tasa de servicio se necesitaría durante las horas pico.
+Se espera que los clientes llegue cada 15 segundos en promedio y se desea que el tiempo de espera promedio en el sistema no sea mayor que 1.5 minutos.
+
+**Si las tasas de llegada y de servicio se distribuyen siguiendo una distribución de Poisson ¿Qué tasa de servicio se necesita?**
+
+## Solución
+
+### Tasa de servicio necesaria
+
+Modelo de colas de un servidor con llegadas exponenciales y servicio exponencial.
+
+¿Por qué?
+Porque se tiene un solo servidor (ventana de servicio) y las llegadas son aleatorias (no se sabe cuándo llegará un cliente).
+
+Se busca: $\mu$
+
+Se definen los siguientes datos:
+
+\begin{align*}
+\lambda & = \cfrac{\text{cliente}}{15~\text{seg}} \times \cfrac{60~\text{seg}}{\text{min}} \\
+W_q & \leq 1.5~\text{min}
+\end{align*}
+
+Se sabe que:
+
+\begin{align*}
+W & = \cfrac{L}{\lambda} \\
+L  & = L_q + \varphi \\
+L_q  & = \cfrac{\varphi^2}{1 - \varphi} \\
+W  & = \cfrac{L_q + \varphi}{\lambda} \\
+\varphi &  = \cfrac{\lambda}{\mu}
+\end{align*}
+
+Entonces:
+
+$$
+W =\cfrac{\cfrac{\cfrac{\lambda}{\mu}^2}{1 - \cfrac{\lambda}{\mu}} + \cfrac{\lambda}{\mu}}{\lambda}
+$$
+
+Despejando:
+
+$$
+\mu = \cfrac{1}{W} + \lambda
+$$
+
+```{r}
+# Datos
+cliente_llega_seg <- 1 / 15
+cliente_llega_min <- cliente_llega_seg * 60
+tiempo_espera_prom_min_lim <- 1.5
+lambda <- cliente_llega_min
+W <- tiempo_espera_prom_min_lim
+mu <- 1 / W + lambda
+mu
+```
+
+Entonces, $\mu = \cfrac{14}{3} \approx 4.67$ como tasa de servicio necesaria.
