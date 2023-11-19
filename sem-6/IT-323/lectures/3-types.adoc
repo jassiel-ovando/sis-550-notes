@@ -1,0 +1,113 @@
+= Types of Decisions for Analysis
+
+== Types of Decision in Management
+
+.Types in management:
+* *rutinarias:*
+    las mismas circunstancias recurrentes llevan a seleccionar un curso de accion ya conocido
+* *de emergencia:*
+    ante situaciones sin precedentes, se toman decisiones en el momento, a medida que transcurren los eventos.
+    pueden tomar la mayor parte del tiempo de un gerente.
+* *estrategicas:*
+    decidir sobre metas y objetivos, y convertirlos en planes especificos.
+    es el tipo de decision mas exigente, y son las tareas mas importantes de un gerente
+* *operativas:* son necesarias para la operacion de la organizacion, e incluye resolver situaciones de gente (como contratar y despedir), por lo quue requieren de un manejo muy sensible.
+
+== Types of Decisions
+
+.Types of decisions:
+* individuales
+** este tipo de decisiones se dan cuando existe un problema que es facil de resolver
+** quien realiza el esfuerzo es una sola persona
+* gerenciales
+** son aquellas deciciones que toma el alto nivel gerencial
+** son importantes y se buscara orientacion, asesoria y evaluacion en cada paso del proceso
+* en condiciones de certidumbre:
+    son aquellas que se toman con certeza acerca de lo que secedera, ya que se cuenta con informacion extacta, medible, confiable y se cconocen las relacinoes de causa-efecto.
+* en condiciones de incertidumbre:
+    cuando existe falta de informacion, escasez de datos, falta de confiabilidad de los datos y se ignoran las probabilidades de los datos.
+* programables:
+** son tomadas como un habito, regla o procedimiento
+** este tipo de deiciones se aplican a problemas estructurados, turinarios y repetitivos
+* no programables:
+    se usan en situaciones no estructuradas, novedosas y mal definidas de una naturaleza no recurrente
+* prgramadas
+** soluciones para problemas rutinarios (situaciones familiares) de acuerdo con diversas reglas, * procedimientos o costumblre.
+** el supervvisor no toma la decision, sino evalua la situacion y aplica el programa.
+* no programadas:
+**  soluciones especificas producidas por medio de un proceso no estructurado para enfrentar problemas no rutinarios (situaciones nuevas o ambiguas) para las cuales no existen reglas o procedimientos claros.
+**  necesitna mas timepo y analiss
+
+=== Programmed Decisions
+
+.formas para tomar decisiones programadas:
+* reeglas:
+    establece con precision lo que un supervisor debe hacer o no en una situacion particular
+* procedimientos:
+    establece un enfoque o secuencia de pasos definidos para resolver un problema
+* politica:
+** proporciona guias para influir en el pensamiento y a diferencia de una regla, requiere el uso de cierto juicio.
+** mas calificadas (hay que interpretar que significa el concepto).
+
+=== Non-Programmed Decisions
+
+* el supervisor o la gerencia no presento una regla, procedimiento o politica estandar para tomar un decision.
+* se tata la sitaucion como unica
+* el supervisor participa activamente en tomar las decisiones
+
+== Elements in Decision-Making
+
+* agente decisorio 
+* objetivos
+* gustos y/o preferencias
+* estrategias
+* situaiones
+* logros y resultados
+
+== Requirements in Decision-Making
+
+* hay que definir bien cuales son las restricciones y las limitaciones
+* establecer una relacion costo-beneficio, especificando los rendiminetos que se esperan hasta los * mas minimos implicitos, habitor, experienciea, etc.
+* se deben conocer los factores internos formales de la organizacion (cultura, organizaciones, * manuales, politicas, estructuraas, recusross disponibles, etc.) y los informales (politica).
+* se deben conocer los factores externos de la organizacion (clientes, proveedores, ecconomia, competencia, etc.).
+
+== Process Components
+
+el tomar decisiones considera aspectos externos y propios a la persona que debe decidir.
+
+=== informacion
+
+estas se recogen tanto para los aspectos que estan a favor como en contra del problema, con el fin de definir sus limitaciones.
+
+* si la informacion no puede obtenerse, la decision entonces debe basarsee en los datos dispobibles, los cuales caen en la categoria de informacion general.
+* la informacion es externa a la persona y por lo tanto debe ser recolectada de algun lugar.
+* es el componenente que puede tener elementos objetivos como subjetivo.
+* para que sea relevante dependera de las cualidades cognitivas del decidor.
+
+=== conocimientos
+
+si quien toma la decision tiene conocimientos, ya sea de las circusntancias que rodean el problema o de una situacion similar, entonces estos pueden usarse para seleccionar un curso de accion favorable.
+
+* en caso de carecer de conocimientos, es neceesario buscar consejo en quienes estan informados.
+
+=== experiencia
+
+cuando un individuo soluciona un problema en forma particular, ya sea con resultados buenos o malos, esta experiencia le proporciona informacion para lasolucion de un problema similar.
+
+* si ha encontrado una solucion aceptable, con mayor razon tendra a repetirla cuando surja un problema parecido.
+* si carecemos de experiencia entonces tendremos que experimentar; pero solo en el caso en que las consecunecias de un mal experimento no sean desastrosas.
+* los problmeas de la adminsitracion no pueden solucionarse con experimentos.
+
+=== jucio
+
+el jucio o criterio es necesario paracombinar la informacion, lso conocimientos, la experienciea y el analiss, con el fin de seleccionar el curso de accion apropiado.
+
+no existen substituso par el buen jucio, es propio del individuo y lo hace distintivo
+
+=== analisis
+
+es la forma de unir los componentes anteriores
+
+* no puede hablarse de un metodo en particular para analiza un proeblma, debe existir un compleemnto, pero no un reemplazo de los otros ingredientes.
+* en ausencia de un metodo para analizar matematicmente un problmea es peosible estudiarlo con otros metodos diferentes.
+** si estos otros metodos tambien fallan, entonces debe confiarse en la intuicion.

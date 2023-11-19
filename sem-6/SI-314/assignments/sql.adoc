@@ -1,0 +1,49 @@
+= Structured Query Language
+:theme: theme.yml
+:source-highlighter: highlight.js
+:highlightjs-theme: monokai-sublime
+
+consultas sobre la base de datos de la veterinaria
+
+para el problema ya trabajado sobre la vetirnaria, debemos contar con la base de dato creada y poblada de datos, a fin de poder desarrollar los ejercicios de las consultas:
+
+* Consultar el contenido de una tabla.
+* Consultar los datos combinando de dos tablas con producto cartesiano (cliente y mascota).
+* Consultar los datos combinando de dos tablas con producto cartesiano (cliente y mascota) seleccionado solo algunos campos.
+* Consulta para listar los clientes y las personas asociadas a el (con producto cartesiano y con *peración de conjunto (join)).
+* Consulta para listar los clientes y las personas asociadas a el (con producto cartesiano y con *peración de conjunto (join)) filtrando por nombres y apellidos (completos y subcadenas).
+* Contar la cantidad de personas asociadas a un cliente.
+* Contar la cantidad de personas asociadas a un cliente filtrando por apellido (completo y *ubcadenas).
+* Consulta para calcular el peso total y el peso promedio de las mascotas.
+* Consulta para identificar que personas pueden llevar a una mascota.
+
+use vterinariasi-basededatso;
+
+[source, sql]
+----
+select codmascota as 'codigo de mascota', alias as 'nombre de mascota', especia, raza, color from mascotas
+
+select count(codmascota) as çasntidad depor especia', especia from mascotas
+    group by (especia)
+    order by especie
+
+select codmascota as 'codigo de mascota', alias as 'nombre de mascota', especia, raza, color from mascotas
+    order by especie;
+
+select avg(pesoactual) as 'peso promedio', especia from masctoas
+    group by (especia)
+    order by espeica;
+    
+print getdate()
+
+/*consulta con producto cartesiano*/
+select count(*) from clietnes;
+select count(*) from mascotas;
+select * from mastocas;
+
+select * from clientes, mascotas
+    where mascotas.codclietne = clientes.codigocli;
+
+
+----
+

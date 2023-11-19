@@ -1,0 +1,208 @@
+= Veterinary
+:source-highlighter: highlight.js
+
+== Description
+
+A veterinarian has:
+
+* Patients as animals
+* Clients as families
+
+A client is a set of people that usually corresponds to a family.
+
+Cada cliente tiene un código, primer apellido es la cabeza de la familia, un # de cuenta bancaria, una dirección, un teléfono y los nombres y la identificación de la personas correspondientes.
+No existe el limite de personas asociadas a un cliente además, una persona puede estar dado de alta en varios clientes (Ejemplo: Un hombre que vive con su esposa tiene un gato y como tal pertenece a un cliente, pero también esta dado de alta en el cliente asociado con el perro de sus padres).
+Los clientes pueden tener varias mascotas, cada mascota tiene un código, un alias, una especie, una raza, color de pelo, fecha de nacimiento, peso del paciente (se debe llevar el historial de peso durante las 10 ultimas visitas y el peso actual).
+Así mismo se guarda un historial médico con cada enfermedad que tuvo y la fecha en la que se enfermo. Adicionalmente cada mascota tiene un calendario de vacunación, en la que se llena el registro de cada vacuna, y la enfermedad contra la que se esta vacunado.
+
+Elabore el diagrama entidad relación para el problema.
+
+Conforme al diagrama entidad relación que desarrolló para el problema, elabore los scripts de creación de las tablas y los carga como un archivo de texto.
+
+Escriba los scripts para insertar datos en todas las tablas, de modo que la base de datos esté lista para hacer practicas de consultas.
+
+=== Queries
+
+Para el problema ya trabajado sobre la veterinaria, debemos contar con la base de datos creada y poblada de datos, a fin de poder desarrollar los ejercicios de las consultas:
+
+* Consultar contenido de una tabla
+* Consultar datos combinando dos tablas con producto cartesiano (Cliente y mascota)
+* Consultar datos combinando dos tablas con producto cartesiano (Cliente y mascota) seleccionado solo algunos campos
+* Consulta para listar los clientes y las personas asociadas a el (con producto cartesiano y con operación de conjunto (join))
+* Consulta para listar los clientes y las personas asociadas a el (con producto cartesiano y con operación de conjunto (join)) filtrando por nombres y apellidos (completos y subcadenas)
+* Contar la cantidad de personas asociadas a un cliente
+* Contar la cantidad de personas asociadas a un cliente filtrando por apellido (completo y subcadenas)
+* Consulta para calcular el peso total y el peso promedio de las mascotas
+* Consulta para identificar que personas pueden llevar a una mascota
+
+== Solution
+
+=== ERD
+
+=== SQL
+
+Creation of database and use of `go` for separating the creation of the database and the use of it.
+
+[source, sql]
+----
+CREATE DATABASE veterinary_case;
+GO
+USE veterinary_case;
+GO
+----
+
+==== Tables
+
+Creation of tables.
+
+[source, sql]
+----
+CREATE TABLE Cliente (
+    ID INT PRIMARY KEY,
+    nombre CHAR(10) NOT NULL,
+    apellido CHAR(10) NOT NULL,
+    CuentaDeBanco VARCHAR(10) NOT NULL,
+    banco VARCHAR(10),
+    direccion VARCHAR(100),
+    Telefono VARCHAR(100),
+    email VARCHAR(100) NOT NULL
+);
+
+
+CREATE TABLE Personas (
+    CI INT PRIMARY KEY,
+    NombrePersonas VARCHAR(10) NOT NULL,
+    telefono VARCHAR(15) NOT NULL,
+    direccion VARCHAR(15) NOT NULL,
+    email VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Mascotas (
+    CodigoMascota INT PRIMARY KEY,
+    Nombre VARCHAR(10) NOT NULL,
+    Especie VARCHAR(10),
+    Raza VARCHAR(100),
+    Color VARCHAR(10),
+    FechaNac DATE NOT NULL,
+    Peso INT NOT NULL,
+    CHECK (FechaNac < GETDATE()),
+    CHECK (Especie IN ('Felino', 'Canino', 'Aviar', 'Porcino', 'Vacuno', 'Caballar'))
+);
+
+
+CREATE TABLE Vacuna (
+    Fechaprevista varchar(10),
+    idMascota INT NOT NULL,
+    vacuna VARCHAR(10) NOT NULL,
+    enfermedad VARCHAR(100) NOT NULL,
+    dosis VARCHAR(100) NOT NULL
+);
+
+
+CREATE TABLE CalVacunas (
+    CodMascota INT,
+    codvacuna VARCHAR(10),
+    fechaprevia DATE NOT NULL,
+    fechaAplicada DATE NOT NULL DEFAULT GETDATE(),
+    dosis VARCHAR(100) NOT NULL,
+    CONSTRAINT PK_CalVac PRIMARY KEY (CodMascota, codvacuna, fechaprevia),
+    CHECK (fechaAplicada >= fechaprevia)
+);
+
+
+CREATE TABLE Pesos (
+    CodigoMascota INT,
+    fecha DATE,
+    peso DECIMAL(5, 2),
+    PRIMARY KEY (CodigoMascota, fecha),
+    FOREIGN KEY (CodigoMascota) REFERENCES Mascotas (CodigoMascota)
+);
+
+CREATE TABLE HistorialMedico (
+    CodigoHistorial INT PRIMARY KEY,
+    CodigoMascota INT,
+    Enfermedad VARCHAR(255),
+    FechaEnfermedad DATE,
+    FOREIGN KEY (CodigoMascota) REFERENCES Mascotas (CodigoMascota)
+);
+----
+
+===== Alterations
+
+[source, sql]
+----
+alter table Cliente alter column  telefono varchar(100);
+alter table Cliente alter column  email varchar(100);
+alter table Cliente alter column  direccion varchar(100);
+alter table Mascotas alter column Raza varchar(100);
+alter table Vacuna alter column enfermedad varchar(100);
+alter table Vacuna alter column dosis varchar(100);
+alter table CalVacunas alter column dosis varchar(100);
+----
+==== Data
+
+[source, sql]
+----
+INSERT INTO Cliente (ID, nombre, apellido, CuentaDeBanco, banco, direccion, Telefono, email)
+VALUES
+    (1, 'Sebastian', 'Mendoza', '12345', 'Mercantil', 'Calle 123', '71077143', 'sebastian.mendoza@example.com'),
+    (2, 'Daniel', 'Martinez', '54321', 'BNB', 'Avenida Principal', '72134560', 'daniel.martinez@example.com'),
+    (3, 'Rodrigo', 'Callau', '98765', 'Mercantil', 'Calle Central', '78901234', 'rodrigo.callau@example.com'),
+    (4, 'Iban', 'Gomez', '45678', 'BCP', 'Avenida Secundaria', '71234567', 'iban.gomez@example.com'),
+    (5, 'Luis', 'Villar', '56789', 'San Martin', 'Calle Tranquila', '78901234', 'luis.villar@example.com'),
+    (6, 'Kevin', 'Romero', '23456', 'FIE', 'Avenida 2', '71122335', 'kevin.romero@example.com'),
+    (7, 'Audrey', 'Calatayud', '67890', 'Fassil', 'Calle Peatonal', '71122334', 'audrey.calatayud@example.com'),
+    (8, 'Juan', 'Mendoza', '78901', 'BNB', 'Avenida de la Plaza', '7711223', 'juan.mendoza@example.com'),
+    (9, 'Adira', 'Carrasco', '34567', 'BCP', 'Avenida Comercial', '77123454', 'adira.carrasco@example.com'),
+    (10, 'Maribel', 'Ayala', '45678', 'Mercantil', 'Calle de la Fuente', '78901234', 'maribel.ayala@example.com');
+	
+INSERT INTO Mascotas (CodigoMascota, Nombre, Especie, Raza, Color, FechaNac, Peso)
+VALUES
+    (1, 'Luna', 'Canino', 'Golden Retriever', 'Dorado', '2019-03-10', 25),
+    (2, 'Whiskers', 'Felino', 'Siamés', 'Gris', '2020-05-15', 12),
+    (3, 'Rocky', 'Canino', 'Bulldog Francés', 'Blanco', '2018-09-20', 18);
+
+INSERT INTO Vacuna (Fechaprevista, idMascota, vacuna, enfermedad, dosis)
+VALUES
+    ('2023-04-01', 1, 'Vacuna A', 'Enfermedad X', 'Primera Dosis'),
+    ('2023-04-15', 2, 'Vacuna B', 'Enfermedad Y', 'Dosis Única'),
+    ('2023-03-30', 3, 'Vacuna C', 'Enfermedad Z', 'Segunda Dosis');
+
+INSERT INTO CalVacunas (CodMascota, codvacuna, fechaprevia, dosis)
+VALUES
+    (1, 'Vacuna A', '2023-04-01', 'Primera Dosis'),
+    (2, 'Vacuna B', '2023-04-15', 'Dosis Única'),
+    (3, 'Vacuna C', '2023-03-30', 'Segunda Dosis');
+
+INSERT INTO Pesos (CodigoMascota, fecha, peso)
+VALUES
+    (1, '2023-01-01', 24.5),
+    (2, '2023-01-01', 12.8),
+    (3, '2023-01-01', 17.2);
+
+INSERT INTO HistorialMedico (CodigoHistorial, CodigoMascota, Enfermedad, FechaEnfermedad)
+VALUES
+    (1, 1, 'Gastritis', '2022-10-05'),
+    (2, 2, 'Resfriado', '2022-11-12'),
+    (3, 3, 'Diarrea', '2022-09-25');
+
+SELECT * FROM Cliente;
+SELECT * FROM Mascotas;
+SELECT * FROM Vacuna;
+SELECT * FROM CalVacunas;
+SELECT * FROM Pesos;
+SELECT * FROM HistorialMedico;
+----
+
+==== Queries
+
+[source, sql]
+----
+select * from Cliente;
+select * from persona_cliente;
+select * from persoans_mascotas where raza like 
+----
+
+hi's vs hi`'s
+
+video::RvRhUHTV_8k[youtube]

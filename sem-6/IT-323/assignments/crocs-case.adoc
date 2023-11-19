@@ -1,0 +1,74 @@
+= Análisis Sobre el Cierre de Locales de la Empresa _Crocs_
+
+https://youtu.be/Iv7SgvuYEc4?si=bPwVZLdysmMCXsvb[Enlace al video usado] para el caso de análisis, de parte de https://www.youtube.com/@EmprendeAprendiendo[EmpredeAprendiendo@YouTube]
+
+== Línea de Tiempo
+
+.Línea de Tiempo
+* *2002:* La empresa Crocs es fundada en Colorado, Estados Unidos.
+* *2006:* La empresa se hace pública en la bolsa de valores de Estados Unidos. Y los ingresos de la empresa se disparan a 847 millones de dólares.
+* *2008:* La Crocs empieza a tener un declive en sus ventas, y empieza a hacer un análisis, creyendo sea por competencia, crisis económica, etc.
+Como solución empiezan a hacer nuevos diseños.
+* *2011:* La empresa empieza a tener nuevas perdidas y se da cuenta que dependen mucho de la moda.
+
+.Problemas de los cuales la empresa se dio cuenta
+* Crocs dependía mucho de la moda.
+* Crocs asoció su producto estrella como la marca.
+* Crocs no tenía un producto vaca que le permitiera salvarse de la quiebra.
+* Incapacidad de otros productos de sustentar la empresa.
+* La imagen de la empresa se vio afectada por la moda.
+
+.Continuación de la línea de tiempo
+* *2013:* La empresa adopta una nueva estrategia sobre reducir los costes de infraestructura.
+Para así centrarse en el mercado en línea.
+A medida que la empresa empieza a reducir la inversión a las infraestructuras y locales, empiezan a cerrar las fabricas y locales.
+Así poco a poco externalizan la producción a terceros.
+* *2013 para adelante:*
+** La empresa empieza a colaborar con celebridades para recuperar su imagen.
+** La empresa encuentra un nicho en el mercado de los restaurantes y hospitales.
+
+=== Matriz de Crecimiento - Participación
+
+En la siguiente matriz podemos apreciar al matriz de tipos de productos basados en la demanda y la participación de mercado.
+
+_Por participación en el mercado, nos referimos al porcentaje de ventas que tuvo la compañía en comparación a sus competidores, o las ventas anuales._
+
+.Matrix de Crecimiento - Participación
+image::https://cpawebsiteimages.blob.core.windows.net/publicimages/Marketing%20Theories/BCG%20Matrix.png[bcg-matrix, align = "center"]
+
+* *Producto estrella: Gran crecimiento y Gran participación de mercado.*
+Se recomienda potenciar al máximo dicha área de negocio hasta que el mercado se vuelva maduro, y la UEN (*unidad estratégica de negocio,* _unidad de una empres que se enfoca en un producto o servicio específico y tiene su propia estrategia de negocio independiente.
+Responsable de la planificación, implementación y gestión de su estrategia y operaciones, y se evalúa por su desempeño financiero y capacidad para cumplir con sus objetivos establecidos_) se convierta en Vaca
+* *Producto vaca: Gran crecimiento y Poca participación de mercado.*
+Hay que revaluar la estrategia en dicha área, que finalmente se puede convertir en una Estrella o en un Perro.
+Normalmente este tipo de productos son constantes durante la vida de la empresa, y lo usan como método de emergencias para salvar a la empresa, en caso de que las *Estrellas* no funcionen.
+* *Producto interrogante: Bajo crecimiento y alta participación de mercado.*
+Se trata de un área de negocio que servirá para generar efectivo necesario para crear nuevas Estrellas.
+Puede entenderse como el producto que se encuentra en su etapa de crecimiento, y que se espera que se convierta en una Estrella, el inicio de la empresa.
+* *Producto perro: No hay crecimiento y la participación de mercado es baja.*
+Áreas de negocio con baja rentabilidad o incluso negativa. 
+Se recomienda deshacerse de ella cuando sea posible.
+Generalmente son negocios o productos que se encuentran en su última etapa de vida.
+Raras veces conviene mantenerlos en el portafolio de la empresa, también se dice que hace parte del marketing.
+
+==== Problema de Crocs con la Matrix
+
+El error de la empresa fue, principalmente, haber dependido fuertemente de que su producto *estrella* era inestable (basado en moda) y nunca tuvieron planeado un producto *vaca* que les permitiera salvarla en caso de que las ventas de las estrellas cayeran.
+Debido a ese error, las ventas de productos estrellas pasaron a convertirse a productos *interrogantes*, y finalmente a productos *perros*, lo que llevó a la empresa a la quiebra.
+Es entonces en ese momento cuando a la empresa se ocurre hacer una análisis de mercado sobre donde se usan más sus productos, y empiezan a desarrollar un producto *vaca* que les permita salvarse de la quiebra.
+
+== Conclusión
+
+Problema principal de la empresa::
+Dependencia de la moda y asociación del producto estrella a la maraca.
+
+Matriz de productos de la empresa::
+    Estrella::: Crocs clásicos.
+    Vaca::: Crocs para restaurantes y hospitales.
+    Interrogante::: Productos alternativos a los Crocs.
+    Perro::: Crocs clásicos, al mismo tiempo porque dejaron de venderse cuando pasaron de moda. Además de los productos alternativos porque fallaron.
+
+Factor que logro salvar a la empresa::
+*Curiosidad.*
+La empresa se dio cuenta que sus productos se usaban mucho en restaurantes y hospitales, y empezaron a desarrollar productos para ese nicho de mercado, lo que les permitió salvarse de la quiebra.
+Además de que la empresa empezaba a analizar por qué sus ventas bajaban, y decidieron hacer alternativas para tales ocasiones. 

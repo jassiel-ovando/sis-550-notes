@@ -1,22 +1,6 @@
-= Databases
+= Concessionaire
 
-- *Group*: A
-- *Subject Code*: SI-314
-- *Professor*: Egüez Terrazas, Carlos Wilfredo
-
-== Lectures
-
-== Exams
-
-=== xref:exams/1-practice.adoc[First Partial Practice]
-
-== Assignments
-
-=== Entity Relationship Diagram
-
-Using ER Assistant only for modeling.
-
-==== Concessionaire
+== Description of the Problem
 
 Design a database that's useful for car dealerships or a concessionaire.
 
@@ -73,7 +57,9 @@ NOTE: The standard equipment of some models can be the extra equipment of others
 * Etcetera
 * Sales history
 
-===== Solution
+== Solution
+
+=== Entity Relationship Diagram
 
 .Entities
 * Seller
@@ -102,4 +88,3 @@ NOTE: The standard equipment of some models can be the extra equipment of others
 * Official Service store
 * Stock
 
-=== SQL Scripts

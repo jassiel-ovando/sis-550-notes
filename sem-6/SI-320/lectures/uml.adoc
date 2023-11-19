@@ -1,5 +1,7 @@
 [separator=::]
 = UML: Unified Modeling Language
+:source-highlighter: highlight.js
+:
 
 == Negocios y Sistemas
 
@@ -74,6 +76,58 @@ NOTE: Why is it unified:
 * es una abstraccion de dicho sistema, considerando un cierto proposito. asi, el modelo describe completamente aquellos aspectos del sistema que son relveantes al proposito del modelo y a un apropiado nivel de detall
 * diagram: a graphic representation of a collectiion of an element of a mdoel, often drawn as a graph with vertexes and arcs
 
-== modelos y diagramas
+=== diagramas de interaccion
 
- 
+==== diagramas de secuencia
+
+Diagrams that describe the temporal organization of messages that are exchanged between objects.
+
+describen la secuencia de los mensajes entre objetos durante un escenario concreto (paso de mensajes).
+
+* usadors para representar el comporatmiento del sistema
+* muestran colaboracion a traves de emsnajes entre lso eobjetos
+
+[plantuml]
+....
+@startuml
+actor Actor as "worker : Сотрудник\nИнтернет-провайдера"
+boundary View as "loginForm : LoginForm"
+control Controller as "usersController:\n UsersController"
+entity Model as "WorkersDB : Worker"
+
+Actor - (View): "1: openForm()\n2: inputAuthData()\n12:closeForm()\n<&arrow-right>"
+View - View : "3: verifyData()\n11: showMessage()\n<&loop-circular>"
+(View) -- (Controller) : "4: checkLogin()\n6: checkPassword()\n8: increaseCounter()\n9: getUserGroup()\n<&arrow-bottom>"
+(Controller) -left- (Model) : "5: select()\n7: select()\n9: select()\n<&arrow-left>"
+
+
+'Others arrows icons
+'<&arrow-left>
+'<&arrow-right>
+'<&arrow-top>
+'<&arrow-bottom>
+@enduml
+....
+
+[ditaa]
+....
+                   +-------------+
+                   | Asciidoctor |-------+
+                   |   diagram   |       |
+                   +-------------+       | PNG out
+                       ^                 |
+                       | ditaa in        |
+                       |                 v
+ +--------+   +--------+----+    /---------------\
+ |        | --+ Asciidoctor +--> |               |
+ |  Text  |   +-------------+    |   Beautiful   |
+ |Document|   |   !magic!   |    |    Output     |
+ |     {d}|   |             |    |               |
+ +---+----+   +-------------+    \---------------/
+     :                                   ^
+     |          Lots of work             |
+     +-----------------------------------+
+....
+
+==== diagrams de colaboracion
+

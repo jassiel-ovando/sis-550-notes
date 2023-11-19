@@ -1,0 +1,378 @@
+= Ciencia, Tecnología e Innovación
+
+== Ciencia
+
+* Todo el conocimiento es adquirido a trave's del estudio, práctica.
+* Está constituida por principios y leyes
+* La ciencia se rige por métodos que son conformados por un conjunto de normas y pasos que le otorgarán *validez y rigor* científico al proceso de investigación.
+
+.Métodos científico
+* Inducción
+* Descripción
+* Explicación
+* Hipótesis
+* Experimentación
+* Demostración
+* Comparación
+
+* La ciencia en general, comprende varios *campos de conocimiento*, dentro de los cuales cada uno desarrolla sus propias teorías con base en sus *métodos científicos* particulares.
+* La ciencia es un conjunto de *conceptos y propiedades* que convergen en un objeto, y contienen:
+
+.Según Mario Bunge:
+* _Conjunto de conocimientos obtenidos mediante la observación y el raonamiento, y delos que se deducen principios y leyes generales._
+* 
+
+.What are its characteristics?
+* *It is Predictive:* It not only stays in the information obtained through experience. It tries to form an idea of how the past was, in order to predict how the future will be
+
+.*¿Cuáles son sus características?*
+* *Es Predictiva:* No solo se queda en la información obtenida a través de la expriencia. Trata de formar una idea de como fue el pasado, de manera de preecir como será el futuro
+* *Es Explicativa:* a ciencia trata de explicar los nuevos conocimiento a traveés de leyes universales establecidas, dejando en claro lo experimental como lo teórico.
+* *Es Sistemática:* recopila la infromación usa me'todo y técnicas, que permiten organizarla de manera que se peuda obtener resultados acertados
+* *Es Metódica:* Los científicos no generan los nnnuevos conocimiento con suerte. Se planean de forma detallada y organizada la forma como obtendrán lo que están buscando.
+* *Es Verificable:* No se queda en el campo teóricio, sino que se puede comporabar las nuevas hipóitesis mediante la practica experimental.
+* *Es Especializada:* La ciencia, abarca meuhoc stemas de estudio, sin emabrgo, al momento de crear nuevas hipótesis, leyes o conocimientos científicos, se concentran e n temas específicos.
+
+=== Características
+
+* La ciencia tiene como fundameto las *observaciones y experimentaciones*
+* El fin es, generar nuevos conocimiento, y las observaciones se organizan por medio de:
+** Métodos
+** MOdelos
+** Teorías
+* La ciencia se puede dividir:
+** Ciencias Básica
+** Ciencias Aplicadas
+
+.Ciencia Básica
+* Sin fines práctiso
+* *Incrementar el conocimietno* de los principios fundamentales de la nuaturaliz
+
+.Ciecia palicada
+* Es la palicacione del concoimiento de una o varía área espeicalizada s del laciencia par sresolver problemas p'racitco.
+* LA ciencia aplciada trata de:
+** Re
+
+.*¿Qué es la investigación?*
+* Proeso de descrubimiento de nuevo conocimiet.
+* ESta determinada por la vargiacui'n de datos o la busque da desoluciones para pporblemas concretos.
+* la investigación sigue un proceso sitematic.
+parte de alforamulacions de un porlem a desituaoicon a resolver
+
+* la objetividaddd es una condicion esencial durante este proceso
+* la busqueda no debe ser subjectivo, debe basarse en hechos veridicos para evitar cualquier tio de interpretacion personal o prejuicio.
+
+.objetivos de la investigacion cientifica
+* 
+
+.metodo cientifico
+* el concepto de metodo proviende del griego methodos que significa camino o camino a seguir, y hace referenciaa al medio que se usa para
+
+..etapas
+* observacion
+* plantemiento del problema
+* hipotesis: soluciones propuestas para le problema
+* experimentacion: verificacion de la hipotesis mediante la accion
+* analisis de resultados
+* conclusiones
+* teorias y elyes
+* publciacion y divulgacion
+
+Comprobar el mostrar un conjunto de hechos observados que concuerdan con la hipotesis. comporbacion valida rara deliberdad o indeliberadamnete amanada
+
+
+=== Pseudociencia
+
+disciplina determianda por un conjunto de practicas creencias conocimiento y metodologias no cientificas, pero que reclaman dicho caracter
+* astrologia
+* homeopatia
+* ufoologia
+* psicoanalisis
+* parapsicologia
+
+* la mayoria de la pseudociencias son disciplicnas que requieren pocos conicimeitnoy se bassan en posutlados simples
+* estos conocimientos se basan generalmente e nal altradicion o en dogmas establecidos hace tiempo o bien revelanciones transmitidas por los uspuesto sabios chamaner yatiris etc.....
+
+==== caracteristicas
+
+* invocan enntes inmateirales o sobrenaturales inaccesibles al examen empiricos
+* no someten sus epsecuallciones o prueba alguna
+* son dogmaticas
+* rechazan las criticas
+* faciles de aprender
+
+== Tecnología
+
+== Innovación
+
+=== Definition
+
+Transform ideas into benefits and advantages.
+
+* segun wikipedia: es el proceso que introduce novedades, ademas de referirse a la modificacion de elementos ya existentes con el fin de merjorarlos, como tambien es la implementacion de elementos totalmente nuevos.
+* para el manual de oslo (guia de referencia para la ocde (organizacion para la cooperacion y el desarrollo economico)), se se refiere al implantacion de cambios significativos en el producto, proceso, marketing o organizacion de la empresa, con el fin de mejorar los resultados.
+
+* proceso en el cual a aprtir de una idea, invencion o reconomiciento de una necesidad se desarrolla un producto tecnica o servicio hasta que sea comercialmente aceptada.
+* para sobreveivir en el mercado es necesario innovar.
+
+.innovacion como novedad
+* es la dimension objetiva de la innovacion
+* se observa la singularidade de artefactso productos metdoso o servicios hasta ahora desconocidos y sinp recedentes hasta el momento
+.innovacion como cambio
+* es la dimension temporal
+* ... 
+.innovacion como ventaja
+* es la demension social
+* se refiere a las formas nuevas de ventajas que van acompañaadas de nuevas formas de adminstrarr la interpaelacion del publico al que se oritentan y qeu puedeen verse como progreso o adelanto
+
+[options="header"]
+|===
+2+| predominancia tecnologica 2+| predominancia comercial
+
+| nuevos materiales | fibra optica
+| nuevas presentaciones | enciclopedias en cd
+
+| nuevos componentes o subssitemas | airbag velcro
+| nuevos canales de distribucion | maquinas vending franquicias
+
+| sistemas | internet telefonoia celular
+| nuevas aplicaciones | publicidadd en techos de taxi
+
+| nuevos envases y formas | aspirina efervescente cafe soluble
+.3+| nuevos sistemas comerciales .3+| leasing factoring 
+
+| nuevos elementos | plasticos por acero fibra optica por cobre
+
+| nuevso procedimientos | tratamiento de calculos de riños por ultrasonido
+|===
+
+=== Classification
+
+* incremental: mejora de un producto o servicio ya existente
+* radical: en funcion del grado del cambio
+
+[%autowidth]
+|===
+| 
+| innovacion incremental
+| innovacion radical
+
+| a
+| es grande pero poco predecible +
+elevado riesgo de fracasar
+
+|===
+
+* natural: en funcion a la naturaleza u objeto de la innovacion
+* investigacion y desarrollo
+* tecnological push (ciencia -> tecnologia -> idea -> investigacion y desarrollo -> innovacion)
+* market pull (necesidad de mercado -> demanda potencial -> incentivo tecnologico -> innovacion y desarrollo -> innovacion)
+
+.componentes basicos
+* invencion
+* innovacion
+* difusion
+
+
+=== usability for society
+
+el nuevo producto o nuevo proceso fruto de la innovacion deb e proporcionar una utilidad a la sociedad
+* comodidad
+* comfort
+* seguridad
+* calidad
+* estetia
+* energia
+
+=== Models
+
+* integral
+* lineal
+* mixto
+
+==== mixto
+
+* necsidades del mercado
+* mercado
+* estado del arte de la tecnologia
+
+==== integral
+
+.inicio
+. marketing
+. investigacion basica y palicada
+. desarrollo de productos
+. ingenieria de prodduccion
+. componentes
+. produccion
+.. reuniones de grupo
+.. lanzamiento
+
+=== competitividad
+
+[%autowidth]
+
+clasificacion
+
+ingestigacion y desarrollo
+
+* investigacion aplicada -> "inventar"
+* desarrollo tecnologico -> "know"
+
+.innovacion tecnologica
+* necesidad social
+* tecnologica
+* mercado
+
+* puede existir innovacion sin investigacion o desarrollo
+* la innovacion no procede exlucisamente de 
+
+.origen del proceso de innovacion
+* technology push:
+.. ciencia
+.. tecnologia
+.. idea
+.. investigacion y desarrollo
+.. innovacion
+* market pull
+. necesidad de mercado
+. demanda potencial
+. incentivo tecnologico
+. innovacion y desarrollo
+. innovacion
+
+teoria cientifica
+
+conjunto logicamente coherente de conceptos, postulados, axiomas y leyes cientificas
+
+
+que es la investigacion?
+
+la investigación es un proces intelectual y eperimental que comprende un conjunto de metodos aplicados de modo sistematico con la finalidad de indagar sobre un asunto o tema, asi como de apmpliar o desarorollar su conocimiento, sea este de interes cintifico, humanistico, social o tecnologico
+
+la investigacion puede tener varios objetivos como:
+
+* buscar soluciones a problemas puntuales
+* encontrar las causas de una problematica social
+* desarrollar un nuevo componente de uso industrial
+* obtener datos, etc.
+
+
+.enfoque de la investigacion
+* cuantitativo
+** caracteristicas
+*** mide fenomenos
+*** utiliza estadistica
+*** prueba hipotesis
+*** hace analisas de causa y efecto
+** tipo de proceso
+*** secuencial
+*** deductivo
+*** probatorio
+*** analiza la realidad objetiva
+* mixto
+* cualitativo
+
+//-
+
+* que se quiere conocer: innovacion, acotacion tematica; espacial; temporal
+* por que se quiere conocer: motivaciones, condicionamientos personales
+* para que se quiere conocer: finalidad cientific; practica
+* como se quiere conocer: tipo de conocimiento, perspectiva, limites
+* cuanto cuesta conocer: tiempo, recursos humanos; materiales; economicos
+
+
+caso de uso: ejercicio 1
+
+* realizar el diagrama de casso de uso de un cajero
+
+plantilla usecases.org (larman)
+
+* resumen
+actores principales y secundarios
+personas involucradas e intereses
+precondiciones
+poscondiciones
+escenario principal (flujo basico) -> funcion base
+
+.caso de uso: realizar venta
+* exteionses (flusjos alternativos):
+identificador invadlido
+el cliente pide eliminar un articulo de la compra
+pago en efectivo
+pago con tarjeta
+    la secuencia a3 ocurre en el unto 
+        el cajero introudce la cantidad entregada por el cliente
+        el sistema muestra cantidad a deover
+    
+* escenario principal (flujo basico):
+el cliente lelga al tpv con los articulos
+* requisitos de interfaz de usuario
+* requisitos no funcionales
+* cestiones pendientes
+
+.caso de uso: documentar
+documentar casosd e uso noe s una tarea facil, se quiree de teiempo, disciplina y experience
+se pueden definir los siguietne spasos par escribir los casos de uso
+
+. identifique a todos los actores que interviene
+. identifique todas las areas que realizara cada actor
+. agrupe las tareas repetidas (tareas de tipo *include* porque no dejara de hacerse)
+. por cada caso de uso escriba un documetnot detallado sigueintdo al plantilla especificada .a nteiroremnte
+. de una prioridad acada caso de uso
+. genre el digram uml que represente equimaticametne los casos de uso
+
+|===
+| alquilar articulo | responsabilidades del sistema | responsabilidades de los actoress
+
+| el cliente indica los articulos
+| calcular y mostrar el perioc
+
+| autorizar y registrar el pago
+|===
+
+UTLIDAD DE LOS CASOS DE USO
+
+hay consenso en considerar caos de uso como esenciales papra captura requisitos y guiar el mdolado
+pero todavia existe mucha confusion csobre como uasrlos
+los casos de uso son una tecnica de modelado de requisitos
+    cual es el numero de caso de uso apropiado en un proyecot
+    que casos de uso hay en el sitema
+
+@startuml
+left to right direction
+actor "cliente" as user
+
+rectangle "cajero" {
+  usecase "realizar operacion" as mainUC
+  usecase "retirar efectivo" as uc1
+  usecase "deposito" as uc2
+  usecase "transferencia" as uc3
+  usecase "informacion" as uc4
+  usecase "validar tarjeta y clave" as uc5
+}
+
+user -> mainUC
+
+(mainUC) <.. (uc1) : extends
+(mainUC) <.. (uc2) : extends
+mainUC 
+mainUC <.. uc3 : extends
+mainUC <.. uc4 : extends
+mainUC ..> uc5 : include
+
+@enduml
+
+caso d euso ejercicos 2
+
+TAREA
+
+una bibiolteca tiene libros y copias de libros.
+se caracterizan pos su nombre, tipo (novela, teaatro, poesai, ensayo), editorial, año y autro.
+los libros originales se evitarn prestar a los lectores.
+los autores se caracterizan pos us nomreb nacionalidad y fecha de naciomietno.
+cada copia de libro tiene un identificador, y pudee estar ne al biblioteca, prestada, con restrado o en reparacion.
+los lectrores puden achace uso del libro en bilioteca y si desean un prestamo asociaciarse a la bibilioteca para lo qeu se hace el registro de sus datso persoanles(nombre, ci, driccio, telefono, etc) y realizar el pago anual de suscripcion.
+dependiendo del tiempo de asociado pudedn ser; oro plata y bronce
+los lectores pueden tener un maxcimo de 3 libros (copias) en presatmo, si son bronce, 4 si son plata y 5 si son oro.
+cada libro (copia) se pretta un maxmo de 20 dias, por cada dia de 

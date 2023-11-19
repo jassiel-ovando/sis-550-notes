@@ -1,0 +1,14 @@
+= Primer Parcial
+:toc:
+
+.Utilizar:
+* Un balanceador.
+* Un marcapaso (activo-pasivo).
+* Dos bases de datos.
+* Un repositorio.
+
+.Diagrama UML
+[source,plantuml]
+----
+
+----
